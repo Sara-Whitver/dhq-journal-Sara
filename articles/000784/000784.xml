@@ -48,7 +48,7 @@
                 <idno type="DHQarticle-id">000784</idno>
                 <idno type="volume">019</idno>
                 <idno type="issue">2</idno>
-                <date>13 June 2025</date>
+                <date when="2025-06-13">13 June 2025</date>
                 <dhq:articleType>article</dhq:articleType>
                 <availability status="CC-BY-ND">
                     <cc:License rdf:about="http://creativecommons.org/licenses/by-nd/2.5/"/>
