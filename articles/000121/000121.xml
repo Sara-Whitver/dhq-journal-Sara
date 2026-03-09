@@ -13,7 +13,7 @@
             <titleStmt>
                 <!-- Author should supply the title and personal information-->
                 <title type="article">Towards a Richer Sense of Digital Annotation: 
-                    Moving Beyond a "Media" Orientation of the Annotation of Digital Objects</title>
+                    Moving Beyond a <q>Media</q> Orientation of the Annotation of Digital Objects</title>
                 <dhq:authorInfo>
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
                     <dhq:author_name>John <dhq:family>Bradley</dhq:family>
