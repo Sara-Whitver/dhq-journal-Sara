@@ -18,12 +18,16 @@
                 <dhq:authorInfo>
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
                     <dhq:author_name>Alan <dhq:family>Colin-Arce</dhq:family></dhq:author_name>
-                    <idno type="ORCID"
-                        >https://orcid.org/0000-0002-0437-7193</idno>
+                    <idno type="ORCID">https://orcid.org/0000-0002-0437-7193</idno>
                     <dhq:affiliation>University of Victoria</dhq:affiliation>
                     <email>alancolinarce@uvic.ca</email>
                     <dhq:bio>
-                        <p>Alan Colin-Arce is a MITACS Internship Fellow in Open, Collaborative Scholarship at the University of Victoria’s Electronic Textual Culture Lab and the research lead for the the Humanities and Social Sciences Commons. His research focuses on the influence of language and geography in knowledge production, especially in scholarly communication and web archives.</p>
+                        <p>Alan Colin-Arce is a MITACS Internship Fellow in Open, Collaborative
+                            Scholarship at the University of Victoria’s Electronic Textual Culture
+                            Lab and the research lead for the the Humanities and Social Sciences
+                            Commons. His research focuses on the influence of language and geography
+                            in knowledge production, especially in scholarly communication and web
+                            archives.</p>
                     </dhq:bio>
                 </dhq:authorInfo>
                 <dhq:authorInfo>
@@ -32,7 +36,16 @@
                     <idno type="ORCID">https://orcid.org/0000-0001-8160-7792</idno>
                     <dhq:affiliation>University of Victorya</dhq:affiliation>
                     <email>ghjensen@uvic.ca</email>
-                    <dhq:bio><p>Graham Jensen is a Research Officer for the Digital Research Alliance of Canada. Previously he was Assistant Director and Digital Humanities Research Lead in the Electronic Textual Cultures Lab at the University of Victoria. He is also Principal Investigator of the Canadian Modernist Magazines Project. His research spans twentieth-century Canadian literatures, modernism, literature and religion, and digital humanities approaches to open scholarship, digital research infrastructure, and community-building.</p></dhq:bio>
+                    <dhq:bio>
+                        <p>Graham Jensen is a Research Officer for the Digital Research Alliance of
+                            Canada. Previously he was Assistant Director and Digital Humanities
+                            Research Lead in the Electronic Textual Cultures Lab at the University
+                            of Victoria. He is also Principal Investigator of the Canadian Modernist
+                            Magazines Project. His research spans twentieth-century Canadian
+                            literatures, modernism, literature and religion, and digital humanities
+                            approaches to open scholarship, digital research infrastructure, and
+                            community-building.</p>
+                    </dhq:bio>
                 </dhq:authorInfo>
                 <dhq:authorInfo>
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
@@ -40,7 +53,12 @@
                     <idno type="ORCID">https://orcid.org/0000-0002-3892-5346</idno>
                     <dhq:affiliation>University of Victoria</dhq:affiliation>
                     <email>bamell@uvic.ca</email>
-                    <dhq:bio><p>Brittany Amell (she/her) is an INKE Partnership postdoctoral fellow in Open Social Scholarship and MITACS Accelerate Industrial postdoctoral fellow in Open, Collaborative Scholarship (Arts &amp; Humanities) at the Electronic Textual Cultures Lab (ETCL).</p></dhq:bio>
+                    <dhq:bio>
+                        <p>Brittany Amell (she/her) is an INKE Partnership postdoctoral fellow in
+                            Open Social Scholarship and MITACS Accelerate Industrial postdoctoral
+                            fellow in Open, Collaborative Scholarship (Arts &amp; Humanities) at the
+                            Electronic Textual Cultures Lab (ETCL).</p>
+                    </dhq:bio>
                 </dhq:authorInfo>
                 <dhq:authorInfo>
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
@@ -48,7 +66,12 @@
                     <idno type="ORCID">https://orcid.org/0000-0002-9599-8795</idno>
                     <dhq:affiliation>University of Victoria</dhq:affiliation>
                     <email>siemens@uvic.ca</email>
-                    <dhq:bio><p>Ray Siemens is Distinguished Professor in the Faculty of Humanities at the University of Victoria, in English with cross appointment in Computer Science, also appointed Canada Research Chair in Humanities Computing (2004-15). Https://web.uvic.ca/~siemens/</p></dhq:bio>
+                    <dhq:bio>
+                        <p>Ray Siemens is Distinguished Professor in the Faculty of Humanities at
+                            the University of Victoria, in English with cross appointment in
+                            Computer Science, also appointed Canada Research Chair in Humanities
+                            Computing (2004-15). Https://web.uvic.ca/~siemens/</p>
+                    </dhq:bio>
                 </dhq:authorInfo>
             </titleStmt>
             <publicationStmt>
@@ -60,8 +83,7 @@
 
 
                 <!-- This information will be completed at publication -->
-                <idno type="volume"
-                    >020</idno>
+                <idno type="volume">020</idno>
                 <idno type="issue">1</idno>
                 <date when="2026-02-28">28 February 2026</date>
                 <dhq:articleType>article</dhq:articleType>
@@ -123,66 +145,784 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <!-- Replace "XXXXXX" in the @target of ref below with the appropriate DHQarticle-id value. -->
-            <change>The version history for this file can be found on <ref target="https://github.com/Digital-Humanities-Quarterly/dhq-journal/commits/main/articles/000850/000850.xml">GitHub
-            </ref></change>
+            <!-- Replace "NNNNNN" in the @target of ref below with the appropriate DHQarticle-id value. -->
+            <change>The version history for this file can be found on <ref type="gitHist"
+                    target="https://github.com/Digital-Humanities-Quarterly/dhq-journal/commits/main/articles/000850/000850.xml"
+                    >GitHub</ref>.</change>
+            <!-- Each change should include @who and @when as well as a brief note on what was done. -->
         </revisionDesc>
     </teiHeader>
     <!-- If a translation is added to the original article, add an enclosing <text> and <group> element -->
     <text>
         <group>
-            
+
             <!-- Original language -->
-            
+
             <text xml:lang="en" type="original" resp="-- fill in --">
                 <!-- @resp for the original article is a pointer to xml:id of <dhq:authorInfo>, e.g. "#john_doe" -->
                 <front>
                     <dhq:abstract>
-                        <p>PLACEHOLDER</p>
+                        <p>Multilingualism has been gaining importance in the digital humanities and
+                            scholarly communication, but the infrastructure used to disseminate
+                            scholarship has mostly remained in English. Monolingual research
+                            infrastructure creates a language barrier for non-native-English
+                            speakers to access scholarly outputs and reinforces the idea that
+                            English is the only legitimate language for disseminating scholarship.
+                            Drawing from the debates on multilingual DH and scholarly publishing, we
+                            argue that any digital research infrastructure purporting to support
+                            knowledge diversity across disciplinary and national contexts must
+                            actively work to provide tools to facilitate, publish, and promote
+                            research in languages other than English. To show how multilingualism
+                            can guide infrastructure development and foster connections with diverse
+                            audiences, we describe the translation process of the interface of a
+                            research infrastructure, the Humanities and Social Sciences Commons,
+                            into four languages: French, Spanish, Bangla, and Portuguese.</p>
                     </dhq:abstract>
                     <dhq:teaser>
                         <p>PLACEHOLDER</p>
                     </dhq:teaser>
                 </front>
                 <body>
-                    <head> </head>
                     <div>
-                        <head/>
-                        <p/>
+                        <head>Introduction</head>
+                        <p>For more than a decade, digital humanities scholarship has increasingly
+                            been conducted across the world, as evidenced by projects like <title
+                                rend="italic">Around DH in 80 Days</title>, the Abu Dhabi Winter
+                            Institute in Digital Humanities, <title rend="italic">Global Debates in
+                                the Digital Humanities</title>, or the <title rend="italic">Global
+                                Digital Humanities Symposium</title> series. While DH has tended to
+                            concentrate in centers of Anglophone knowledge production such as the
+                            US, the UK, and Canada (fiormonte, 2016), the field has long since
+                            expanded beyond these countries. Indeed, in response to self-reflexive
+                            interventions by critics (fiormonte, 2016) (mcpherson, 2012)
+                            (galina-russell, 2014) (fiormonte, 2022), the field is now striving to
+                            provide a more pluralistic representation of world languages. This
+                            groundswell has contributed to the rise of multilingual digital
+                            humanities, which involves initiatives to address linguistic bias in
+                            digital scholarship; create spaces for debates in languages other than
+                            English in conferences, journals, and workshops; and develop digital
+                            projects, platforms, and natural language processing resources for
+                            multiple languages (viola-spence, 2024).</p>
+                        <p>Despite these initiatives, digital humanities is in many ways still an
+                            Anglocentric field. This persistent reality can be observed in the
+                            tendency of researchers to cite sources in English even when they are
+                            writing in other languages (del-rio-riande, 2022), in the attendance of
+                            and submissions to the Alliance of Digital Humanities Organizations
+                            (ADHO) conference (grandjean, 2014) (bernardi, 2025), and the
+                            concentration of DH centers in a handful of Anglophone countries
+                            (fiormonte, 2016) (risam, 2018). While the field is evolving and there
+                            are certainly exceptions to each of these examples, DH continues to skew
+                            English both in terms of its research and the various infrastructures
+                            that shape it.</p>
+                        <p>In addition to Anglocentrism in scholarly venues, for instance,
+                            linguistic bias is also present in the digital infrastructure that
+                            supports digital humanities work. Critics have drawn attention to the
+                            lack of digitized materials (pawlicka-deger, 2021) and resources for
+                            conducting natural language processing in languages other than English
+                            (viola-spence, 2024). Criticism has also come from scholars working with
+                            right-to-left languages such as Arabic, Persian, and Urdu
+                            (ghorbaninejad, 2023) who face significant challenges when using digital
+                            humanities tools and infrastructures designed to function for
+                            left-to-right languages. These linguistic barriers for conducting DH
+                            work exist within or in addition to broader inequalities in digital
+                            connectivity and knowledge production, which has led scholars to argue
+                            that global infrastructural gaps are the main obstacles to forming a
+                            truly global community of practice in the digital humanities
+                            (pawlicka-deger, 2021).</p>
+                        <p>To address some of these gaps, (spence, 2021) suggest that DH could
+                            sustain multilingual infrastructure that facilitates its adaptation to
+                            languages other than English and elevate the visibility of non-English
+                            tools and scholarship in global DH settings. On a similar note, Élika
+                            Ortega previously argued that multilingual publishing venues are needed
+                            to foster <foreign xml:lang="es">zonas de contacto</foreign> (zones of
+                            contact) that use translation as a tool to reveal “complementariness
+                            among practices and common (mis)understandings, as well as, crucially,
+                            facilitating the recognition and validation of different knowledge
+                            models where needed” (ortega, 2019, p. 182) (see also (pratt, 1991)).
+                            Digital humanities communities have adopted translation in conference
+                            calls for papers (Grandjean, 2014), interfaces of DH project websites
+                            (rojas-castro, 2023), and training resources (quiroga, 2024). However,
+                            most of the research infrastructure developed in North America and
+                            Western Europe to access, search, and disseminate digital scholarship
+                            has mostly remained monolingual and designed for English-speakers.</p>
+                        <p>This issue is present in both commercial and open access infrastructure.
+                            On the commercial side, the interfaces of academic social networks such
+                            as ResearchGate and Academia.edu are only available in English. On the
+                            open access side, the interfaces of databases such as the Directory of
+                            Open Access Journals and OpenAlex are available only in English.<note> A
+                                recent study of OpenAlex, for instance, points to this platform’s
+                                potential to improve linguistic diversity, both in terms of research
+                                and the metadata used to describe it (cespedes, 2024).</note> This
+                            focus on English at the expense of other languages may be completely
+                            unintentional or connected to the very real limitations that open
+                            infrastructure initiatives often face, including those related to the
+                            complicated interconnections between funding, policy, and capacity to
+                            take on the work of ensuring that, when and where appropriate,
+                            knowledges of all linguistic and cultural backgrounds are free and open.
+                            Nevertheless, monolingual interfaces risk perpetuating Anglocentric
+                            biases and infrastructural design practices.</p>
+                        <p>When digital research infrastructure does not prioritize multilingualism,
+                            it prevents people from sharing or discovering research outputs in
+                            languages other than English. This situation creates further barriers to
+                            equal participation for researchers whose first language is not English
+                            and who already spend more time and effort conducting scholarly
+                            activities in English (amano, 2023).</p>
+                        <p>In addition, monolingualism in research infrastructure reinforces the
+                            idea that English is the only legitimate language for disseminating
+                            scholarship. English is currently the lingua franca in scholarly
+                            communication, that is, “a contact language between speakers or speaker
+                            groups when at least one of them uses it as a second language”
+                            (mauranen, 2017, p. 8); as such, it can of course serve an important and
+                            seemingly necessary pragmatic role, facilitating the intellectual
+                            exchange of ideas in circumstances where it might not be possible
+                            otherwise. However, the exclusive use of English can also lead to a
+                            homogenization of scientific knowledge. This process has been described
+                            as epistemicide (bennett, 2023) because scholarly discourses in
+                            languages other than English become assimilated to the dominant English
+                            to better fit in international journals, dismantling their
+                            epistemological infrastructure in the process. The risk of epistemicide
+                            is even greater in the humanities and social sciences because they are
+                            the disciplines with the largest number of multilingual publications
+                            addressing local topics and concerns (lariviere, 2018) (pradier, 2025).
+                            For all of these reasons, and as a foundation for our own
+                            infrastructural DH work (as detailed later in this paper), we argue that
+                            any digital research infrastructure purporting to support knowledge
+                            diversity across disciplinary and national contexts must actively work
+                            to provide tools to facilitate, publish, and promote research in
+                            languages other than English.</p>
+                    </div>
+                    <div>
+                        <head>Multilingual Infrastructure and DH</head>
+                        <p>Research infrastructure created in North America has mostly been monolingual. However, research infrastructure projects developed in Africa and Latin America show us that this does not have to be the case. AfricArXiv and Scielo, two regional repositories for disseminating and making African and Latin American research more discoverable, have designed their interfaces to include multiple languages through manual or machine translation. While this design shows willingness to connect communities from multiple parts of the world, the task of designing and maintaining multilingual research infrastructure should not fall only to those on the peripheries of knowledge production so they can be in dialogue with scholars from the Global North. If digital humanities in particular seeks to become a global community of practice, then the centers of knowledge production also have a responsibility to develop multilingual research infrastructure where digital scholarship can be accessed and disseminated in multiple languages.</p>
+                        <p>One example of this kind of much-needed work is <title rend="italic">The Programming Historian</title>, a resource that shares peer-reviewed tutorials for humanists about digital techniques and workflows. While originally developed in English, the project has expanded to include Spanish, French, and Portuguese, with some tutorials being translated and others being created directly in one of these languages. When tutorials are translated, the journal provides guidelines to ensure the translations align with the principles of the journal, such as using culturally inclusive and globally accessible language that avoids vague references to geographical locations, jokes, and jargon (quiroga, 2024). These guidelines show a commitment to developing clear and accessible translations in DH projects for a broad audience.</p>
+                        <p>Another recent initiative is the Multilingual DH Network, which connects scholars “using digital humanities tools and methods on languages other than English” through a GitHub organization and mailing list. This network has also created a bibliography on multilingual DH, established a working group in ADHO, and hosted workshops and events on multilingual DH.</p>
+                        <p>Both <title rend="italic">The Programming Historian</title> and the Multilingual DH Network contribute to the idea that DH is not a coordinated and monolithic menagerie gathered under a single “big tent,”<note> One metaphor that has gained traction as a descriptor for DH as a whole — but also intersects with ongoing conversations regarding digital knowledge commons — is the “expanded field”: moving away from the “big tent” metaphor used a decade ago to portray DH as a diverse and capacious yet ultimately unified and coherent field, Lauren F. Klein and Matthew K. Gold (2016) embraced this metaphor, which they borrow from Rosalind Krauss, as part of a larger attempt to reimagine DH in more unstructured, indeterminate, and inclusive terms. Years earlier, Patrik Svensson also sought to disassemble the DH big tent by reframing it as “a meeting place, innovation hub, and trading zone” (svensson, 2012). Notably, both of these newly posited metaphors — Klein and Gold’s expanded field and Svensson’s trading zone — resonate with the spatial metaphor of the commons that we invoke in the following section of this paper. For example, like the expanded field of DH, digital knowledge commons and the zones of contact they create are less “big tents” or bounded spaces to be fenced off (or flapped up, as it were) than distributed, deliberately porous, and emphatically social networks; digital commons often function as one data island among — and intentionally linked to — many others. Moreover, knowledge commons in general are also reminiscent of Svensson’s trading zone in the sense that they are, first and foremost, sites of intellectual and often multilingual exchange.</note> but rather a complex of scholars and scholarly communities active across disciplinary, institutional, national, and linguistic lines. Seeing DH in these unstructured and inclusive terms, as opposed to a unified field, fosters zones of contact that connect different languages and research traditions while showing how they complement or contrast each other. However, this work has been more focused on conducting multilingual research rather than infrastructure-building.</p>
+                        <p>Research infrastructures are important for multilingual DH because they are increasingly created and used to access, analyze, and visualize cultural data, and their development is informed by an engagement with certain values that structure and constrain the format of the arguments produced over them (guldi, 2020). Jo Guldi mentions two principles that guide the values of infrastructure building: bibliographic (consisting of values such as transparency, interoperability, and plurality of humanistic desires) and critical (consisting of the values of community ownership and the belief that the democratization of access to information breeds better democracy). One value that could be added to Guldi’s list is multilingualism to foster connections between diverse audiences, as exemplified by Scielo, AfricArXiv, The Programming Historian, and the Multilingual DH Network.</p>
+                        <p>While supporting multilingualism requires funding, multilingualism can also be sustained by the scholarly community when it is prioritized as a value. For example, Open Journal Systems (OJS), a software and infrastructure that supports thousands of open access journals, has crowdsourced translations of its interface and documentation in multiple languages. OJS is a case of a multilingual infrastructure that supports other multilingual projects, as journals have used this software to publish in 60 languages (khanna., 2022).</p>
+                        <p>Multilingualism is an important value for infrastructure because it leads to increased equity for scholars, greater epistemological diversity, and broader societal access to knowledge (bowker, 2025). Accordingly, multilingualism should be a priority — especially for open access infrastructures; cost is not the only barrier to accessing knowledge. Fluency in the English language can also be a barrier that excludes non-native English speakers from openly accessing and disseminating knowledge.</p>
                     </div>
                 </body>
             </text>
-            
-            <!-- Translated language -->
-            
-            <text xml:lang="en" type="translation_stub" resp="!-- fill in --">
+
+            <!-- Translated language Spanish -->
+
+            <text xml:lang="es" type="translation" resp="!-- fill in --">
                 <!-- Use "translation_stub" if only the abstract and possibly a short summary is translated. Use "translation" if the entire article has been translated. -->
                 <!-- @resp for the translation is a pointer to xml:id of <dhq:translatorInfo> -->
                 <front>
                     <dhq:abstract>
-                        <p>PLACEHOLDER</p>
+                        <p>El multilingüismo ha ido ganando importancia en las humanidades digitales
+                            y la comunicación académica, pero la infraestructura utilizada para
+                            difundir resultados de investigación se ha mantenido principalmente en
+                            inglés. La infraestructura de investigación monolingüe es una barrera
+                            que limita el acceso a la información académica para las personas no
+                            anglófonas y refuerza la idea de que el inglés es el único idioma
+                            legítimo para difundir conocimiento. Con base en los debates recientes
+                            en las humanidades digitales multilingües y la publicación académica,
+                            argumentamos que cualquier infraestructura de investigación digital que
+                            busque fomentar la diversidad de conocimientos en distintos contextos
+                            disciplinares y nacionales debe trabajar activamente para proporcionar
+                            herramientas que faciliten y promuevan la investigación y la publicación
+                            en idiomas distintos del inglés. Para mostrar cómo el multilingüismo
+                            puede guiar el desarrollo de infraestructuras y fomentar conexiones con
+                            audiencias diversas, en este artículo describimos el proceso de
+                            traducción de la interfaz de una infraestructura de investigación, el
+                            Humanities and Social Sciences Commons, a cuatro idiomas: francés,
+                            español, bengalí y portugués.</p>
                     </dhq:abstract>
                     <dhq:teaser>
                         <p>PLACEHOLDER</p>
                     </dhq:teaser>
                 </front>
                 <body>
-                    <head>Note on Translation</head>
                     <div>
-                        <!-- This boilerplate paragraph describes DHQ's translation practices. If there is no full translation, this paragraph should be left in place. If the article is fully translated, this paragraph can be deleted (it is essentially a stand-in in cases where no full translation is provided). -->
-                        <p>For articles in languages other than English, DHQ provides an English-language abstract to support searching and discovery, and to enable those not fluent in the article's original language to get a basic understanding of its contents. In many cases, machine translation may be helpful for those seeking more detailed access. While DHQ does not typically have the resources to translate articles in full, we welcome contributions of effort from readers. If you are interested in translating any article into another language, please contact us at editors@digitalhumanities.org and we will be happy to work with you.</p>
+                        <head>Introducción</head>
+                        <p>Durante más de una década, la investigación en humanidades digitales (HD)
+                            se ha ido extendiendo cada vez más por todo el mundo, como lo evidencian
+                            proyectos como <title rend="italic">Around DH in 80 Days</title>, el
+                            Instituto de Invierno en Humanidades Digitales de Abu Dhabi, el libro
+                                <title rend="italic">Global Debates in the Digital
+                                Humanities</title> o los Simposios Globales de Humanidades
+                            Digitales. Aunque las humanidades digitales han tendido a concentrarse
+                            en los centros de producción de conocimiento anglófonos como Estados
+                            Unidos, Reino Unido y Canadá (fiormonte, 2016), desde hace tiempo el
+                            campo se ha expandido más allá de estos países. De hecho, en respuesta a
+                            reflexiones críticas (fiormonte, 2016) (mcpherson, 2012)
+                            (galina-russell, 2014) (fiormonte, 2022), las humanidades digitales
+                            ahora buscan ofrecer una representación más plural de los idiomas del
+                            mundo. Estas reflexiones han contribuido al crecimiento de las
+                            humanidades digitales multilingües, que involucran iniciativas para
+                            abordar los sesgos lingüísticos en la investigación digital; crear
+                            espacios de debate en idiomas distintos del inglés en congresos,
+                            revistas y talleres; y desarrollar proyectos digitales, plataformas y
+                            recursos de procesamiento de lenguaje natural para múltiples idiomas
+                            (viola-spence, 2024).</p>
+                        <p>A pesar de estas iniciativas, las humanidades digitales en muchos
+                            aspectos siguen siendo un campo anglo-céntrico. Esta realidad puede
+                            observarse en la tendencia de los investigadores a citar fuentes en
+                            inglés incluso cuando escriben en otros idiomas (del-rio-riande, 2022),
+                            en la audiencia y las presentaciones del congreso de la Alianza de
+                            Organizaciones de Humanidades Digitales (ADHO) (grandjean, 2014)
+                            (bernardi, 2025) y en la concentración de centros de HD en un puñado de
+                            países anglófonos (fiormonte, 2016) (risam, 2018). Aunque el campo está
+                            evolucionando y ciertamente hay excepciones a cada uno de estos
+                            ejemplos, las humanidades digitales siguen inclinándose hacia el inglés
+                            tanto en términos de su investigación como de las diversas
+                            infraestructuras que las conforman.</p>
+                        <p>Además del anglocentrismo en espacios académicos, los sesgos lingüísticos
+                            también están presentes en la infraestructura digital que respalda el
+                            trabajo en humanidades digitales. Por ejemplo, investigaciones previas
+                            han señalado la falta de materiales digitalizados (pawlicka-deger, 2021)
+                            y de recursos para realizar procesamiento de lenguaje natural en idiomas
+                            distintos del inglés (viola-spence, 2024). Otras críticas han provenido
+                            de personas que trabajan en idiomas con sistemas de escritura de derecha
+                            a izquierda, tales como el árabe, el persa y el urdu (ghorbaninejad,
+                            2023), quienes enfrentan barreras significativas al usar herramientas e
+                            infraestructuras de humanidades digitales diseñadas para funcionar con
+                            sistemas de escritura de izquierda a derecha. Estas barreras
+                            lingüísticas para realizar investigación en humanidades digitales
+                            existen dentro o además de las desigualdades más amplias en la
+                            conectividad digital y la producción de conocimiento, lo que ha llevado
+                            a (pawlicka-deger, 2021) a argumentar que las brechas globales en
+                            infraestructura son el principal obstáculo para formar una comunidad de
+                            práctica verdaderamente global en las humanidades digitales.</p>
+                        <p>Para abordar algunas de estas brechas, (spence, 2021) sugieren que las HD
+                            podrían mantener una infraestructura multilingüe que facilite su
+                            adaptación a idiomas distintos del inglés y que aumente la visibilidad
+                            de las herramientas y la investigación realizada en idiomas distintos al
+                            inglés en los entornos globales de las HD. De forma similar, Élika
+                            Ortega argumenta que es necesario contar con canales de publicación
+                            multilingüe para fomentar zonas de contacto que utilicen la traducción
+                            como una herramienta para revelar “la complementariedad entre prácticas
+                            y (mal)entendidos frecuentes, así como, crucialmente, facilitar el
+                            reconocimiento y la validación de diferentes modelos de conocimiento
+                            cuando sea necesario” (ortega, 2019, p. 182, traducción propia) (ver
+                            también (pratt, 1991)). Las comunidades de humanidades digitales han
+                            adoptado la traducción en convocatorias a congresos (grandjean, 2014),
+                            interfaces de sitios web de proyectos de HD (rojas-castro, 2023) y
+                            recursos educativos (quiroga, 2024). Sin embargo, la mayor parte de la
+                            infraestructura de investigación desarrollada en Norteamérica y Europa
+                            Occidental para acceder, buscar y difundir la investigación digital ha
+                            permanecido en su mayoría monolingüe y diseñada para personas
+                            angloparlantes.</p>
+                        <p>Este problema está presente tanto en la infraestructura comercial como en
+                            la de acceso abierto. En el lado comercial, las interfaces de redes
+                            sociales académicas como ResearchGate y Academia.edu solo están
+                            disponibles en inglés. En el lado de infraestructuras de acceso abierto,
+                            las interfaces de bases de datos como el Directorio de Revistas de
+                            Acceso Abierto (DOAJ) y OpenAlex solo están disponibles en inglés.<note>
+                                Un estudio reciente de OpenAlex, por ejemplo, señala el potencial de
+                                esta plataforma para mejorar la diversidad lingüística, tanto en
+                                términos de investigación como de los metadatos utilizados para
+                                describirla (cespedes, 2024).</note> Este énfasis en el inglés en
+                            detrimento de otros idiomas puede ser no intencional o estar relacionado
+                            con las limitaciones que enfrentan a menudo las iniciativas de
+                            infraestructura abierta, incluyendo limitaciones de financiamiento,
+                            política y capacidad humana. Sin embargo, la traducción puede garantizar
+                            que, cuando y donde sea apropiado, los conocimientos de todos los
+                            contextos lingüísticos y culturales sean libres y abiertos. De lo
+                            contrario, las interfaces monolingües corren el riesgo de perpetuar
+                            diseños de infraestructura y sesgos anglo-céntricos.</p>
+                        <p>Cuando la infraestructura de investigación digital no prioriza el
+                            multilingüismo, ésta impide que las personas compartan o descubran
+                            resultados de investigación en idiomas distintos del inglés. Esta
+                            situación genera barreras adicionales para la participación equitativa
+                            de los investigadores cuyo primer idioma no es el inglés, quienes ya
+                            dedican más tiempo y esfuerzo a realizar actividades académicas en este
+                            idioma (amano, 2023).</p>
+                        <p>Además, el monolingüismo en la infraestructura de investigación refuerza
+                            la idea de que el inglés es el único idioma legítimo para difundir la
+                            investigación. El inglés es actualmente la lengua franca en la
+                            comunicación académica, es decir, <quote rend="inline">un idioma de
+                                contacto entre hablantes o grupos de hablantes cuando al menos uno
+                                de ellos lo utiliza como segundo idioma</quote> (mauranen, 2017, p.
+                            8, traducción propia). El inglés como lengua franca puede desempeñar un
+                            papel pragmático importante y necesario al facilitar el intercambio
+                            intelectual de ideas en circunstancias donde de otra manera no sería
+                            posible. Sin embargo, el uso exclusivo del inglés también puede conducir
+                            a una homogenización del conocimiento científico. Este proceso ha sido
+                            descrito como epistemicidio (bennett, 2023) porque los discursos
+                            académicos en distintos idiomas se asimilan al inglés dominante para
+                            ajustarse mejor a las revistas internacionales, desmantelando su
+                            infraestructura epistemológica en el proceso. El riesgo de epistemicidio
+                            es aún mayor en las humanidades y las ciencias sociales porque son las
+                            disciplinas con el mayor número de publicaciones multilingües que
+                            abordan temas y preocupaciones locales (lariviere, 2018) (pradier,
+                            2025).</p>
+                        <p>Por todas estas razones, argumentamos que cualquier infraestructura de
+                            investigación digital que pretenda apoyar la diversidad de conocimiento
+                            en contextos disciplinares y nacionales debe trabajar activamente para
+                            proporcionar herramientas que faciliten y promuevan la publicación en
+                            idiomas distintos del inglés. Este principio ha sido la base de nuestro
+                            propio trabajo en infraestructura digital, en particular el Humanities
+                            and Social Sciences (HSS) Commons, una infraestructura de investigación
+                            digital que combina elementos de sitios de redes sociales, herramientas
+                            colaborativas y repositorios institucionales para que los usuarios
+                            puedan crear perfiles, compartir publicaciones existentes, crear nuevas
+                            publicaciones con identificadores de objeto digital (DOI) y licencias
+                            Creative Commons, iniciar grupos y proyectos colaborativos para
+                            compartir archivos y comunicarse, entre otras funciones.</p>
+                        <p>En las próximas dos secciones, situamos nuestro trabajo del HSS Commons
+                            en el contexto de las humanidades digitales multilingües y los bienes
+                            comunes de conocimiento. Luego, describimos el proceso de traducción de
+                            la interfaz del HSS Commons. Finalmente, discutimos los desafíos
+                            encontrados en este proceso y las direcciones para futuras
+                            investigaciones.</p>
+                    </div>
+                    <div>
+                        <head>Infraestructura multilingüe y humanidades digitales</head>
+                        <p>La infraestructura de investigación creada en Norteamérica ha sido monolingüe en su mayoría. Sin embargo, los proyectos de infraestructura de investigación desarrollados en África y América Latina nos muestran que esto no tiene que ser así. AfricArXiv y Scielo, dos repositorios regionales para difundir y hacer descubrible la investigación africana y latinoamericana, han diseñado sus interfaces para incluir múltiples idiomas mediante traducción manual o automática. Aunque este diseño muestra la voluntad de conectar comunidades de diferentes partes del mundo, la tarea de diseñar y mantener infraestructuras de investigación multilingües no debería recaer únicamente en quienes están en las periferias de la producción de conocimiento para que puedan dialogar con académicos del Norte Global. Si las humanidades digitales, en particular, buscan convertirse en una comunidad global de práctica, entonces los centros de producción de conocimiento también tienen la responsabilidad de desarrollar infraestructuras de investigación multilingües donde se pueda acceder y difundir la investigación digital en múltiples idiomas.</p>
+                        <p>Un ejemplo de este tipo de trabajo tan necesario es <title rend="italic">The Programming Historian</title>, un recurso que comparte tutoriales revisados por pares para humanistas sobre técnicas y métodos digitales. Aunque el proyecto fue originalmente desarrollado en inglés, éste se ha expandido para incluir español, francés y portugués, con algunos tutoriales traducidos y otros creados directamente en uno de estos idiomas. Cuando se traducen los tutoriales, la revista proporciona directrices para garantizar que las traducciones se alineen con los principios de la revista, como el uso de un lenguaje culturalmente inclusivo y globalmente accesible que evita referencias vagas a ubicaciones geográficas, chistes y jerga (quiroga, 2024). Estas directrices muestran un compromiso con el desarrollo de traducciones claras y accesibles en proyectos de DH para una audiencia amplia.</p>
+                        <p>Otra iniciativa reciente es la Red Multilingüe de Humanidades Digitales (Multilingual DH Network), que conecta a académicos “que utilizan herramientas y métodos de humanidades digitales en idiomas distintos del inglés” a través de una organización en GitHub y una lista de correo. Esta red también ha creado una bibliografía sobre humanidades digitales multilingües, establecido un grupo de trabajo en ADHO y organizado talleres y eventos sobre humanidades digitales multilingües.</p>
+                        <p>Tanto The Programming Historian como la Red Multilingüe de Humanidades Digitales contribuyen a la idea de que las HD no son una aglomeración coordinada y monolítica reunida bajo una sola “gran carpa”,<note>  Una metáfora que ha ganado fuerza para describir a las humanidades digitales en su conjunto, pero que también se cruza con conversaciones sobre los bienes comunes digitales de conocimiento, es la de un “campo ampliado”. Esta idea se aleja de la metáfora de la “gran carpa” utilizada hace una década para retratar a las humanidades digitales como un campo diverso y amplio, pero que en última instancia es unificado y coherente. Lauren F. Klein y Matthew K. Gold (2016) utilizaron esta metáfora, que toman de Rosalind Krauss, como parte de un intento más amplio de reimaginar las humanidades digitales en términos más desestructurados, indeterminados e inclusivos. Años antes, Patrik Svensson (2012) también buscó desmontar la gran carpa de las humanidades digitales al reformularla como “un lugar de encuentro, un centro de innovación y una zona de intercambio” (svenssen, 2012) Es notable que ambas metáforas — el campo ampliado de Klein y Gold y la zona de intercambio de Svensson — se relacionan con la metáfora espacial de los bienes comunes que invocamos en la siguiente sección de este texto. Por ejemplo, al igual que el campo ampliado de las HD, los bienes comunes digitales de conocimiento y las zonas de contacto que crean son menos “grandes carpas” o espacios delimitados que deben cercarse (o levantarse, por así decirlo). En cambio, los bienes comunes digitales de conocimiento son redes sociales distribuidas, deliberadamente porosas y enfáticamente sociales; los bienes comunes digitales a menudo funcionan como una isla de datos entre muchas otras, e intencionadamente vinculadas a ellas. Además, los bienes comunes de conocimiento en general también se relacionan a la zona de intercambio de Svensson en el sentido de que son, ante todo, sitios de intercambio intelectual y, a menudo, multilingües.</note> sino más bien un complejo de investigadores y comunidades académicas activas a través de líneas disciplinares, institucionales, nacionales y lingüísticas. Ver las HD en estos términos no estructurados e inclusivos (en lugar de un campo unificado) fomenta zonas de contacto que conectan diferentes idiomas y tradiciones de investigación, mostrando cómo se complementan o contrastan entre sí. Sin embargo, este trabajo ha estado más enfocado en realizar investigaciones multilingües que en construir infraestructura.</p>
+                        <p>Las infraestructuras de investigación son importantes para las humanidades digitales multilingües porque cada vez se crean y utilizan más estas infraestructuras para obtener, analizar y visualizar datos culturales, y su desarrollo está informado por un apego a ciertos valores que estructuran y restringen el formato de los argumentos producidos sobre ellas (guldi, 2020). Jo Guldi menciona dos principios que guían los valores en el desarrollo de infraestructuras: un principio bibliográfico (que consiste en valores como la transparencia, la interoperabilidad y la pluralidad de deseos humanísticos) y un principio crítico (que consiste en los valores de propiedad comunitaria y la creencia de que la democratización del acceso a la información genera una mejor democracia). Un valor que podría añadirse a la lista de Guldi es el multilingüismo para fomentar conexiones entre audiencias diversas, como lo ejemplifican Scielo, AfricArXiv, The Programming Historian y la Red Multilingüe de DH.</p>
+                        <p>Aunque el multilingüismo requiere de financiamiento, también puede ser sostenido por la comunidad académica cuando se prioriza como un valor. Por ejemplo, Open Journal Systems (OJS), un software e infraestructura que soporta miles de revistas de acceso abierto, ha usado las traducciones colaborativas para tener su interfaz y documentación disponibles en múltiples idiomas. OJS es un caso de infraestructura multilingüe que apoya otros proyectos multilingües, ya que las revistas académicas han utilizado este software para publicar en 60 idiomas (khanna, 2022).</p>
+                        <p>El multilingüismo es un valor importante para la infraestructura digital porque conduce a una mayor equidad para los académicos, una mayor diversidad epistemológica y un acceso más amplio al conocimiento (bowker, 2025). En consecuencia, el multilingüismo debería ser una prioridad, especialmente para las infraestructuras de acceso abierto porque los costos no son la única barrera para acceder al conocimiento. El dominio del inglés también puede ser una barrera que impide a investigadores no anglófonos acceder y difundir conocimiento de manera abierta.</p>
                     </div>
                 </body>
             </text>
-            
-            
+
+            <!-- Translated language Portuguese -->
+
+            <text xml:lang="pt" type="translation" resp="!-- fill in --">
+                <!-- Use "translation_stub" if only the abstract and possibly a short summary is translated. Use "translation" if the entire article has been translated. -->
+                <!-- @resp for the translation is a pointer to xml:id of <dhq:translatorInfo> -->
+                <front>
+                    <dhq:abstract>
+                        <p>O multilinguismo tem ganhado importância nas humanidades digitais e na
+                            comunicação acadêmica, mas a infraestrutura utilizada para divulgar o
+                            conhecimento científico mantém-se principalmente em inglês. Uma
+                            infraestrutura de pesquisa monolíngue cria uma barreira linguística para
+                            falantes não-anglófonos acessarem produções acadêmicas e reforça a ideia
+                            de que o inglês é a única língua legítima para difundir o conhecimento
+                            científico. Com base nos debates sobre humanidades digitais multilíngues
+                            e publicações acadêmicas, argumentamos que qualquer infraestrutura
+                            digital de pesquisa que pretenda apoiar a diversidade de conhecimentos
+                            em contextos disciplinares e nacionais deve trabalhar ativamente para
+                            fornecer ferramentas que facilitem, publiquem e promovam pesquisa em
+                            línguas diferentes do inglês. Para mostrar como o multilinguismo pode
+                            orientar o desenvolvimento da infraestrutura e fomentar conexões com
+                            públicos diversificados, descrevemos o processo de tradução da interface
+                            de uma infraestrutura de pesquisa, o Humanities and Social Sciences
+                            Commons, para quatro idiomas: francês, espanhol, bengali e
+                            português.</p>
+                    </dhq:abstract>
+                    <dhq:teaser>
+                        <p>PLACEHOLDER</p>
+                    </dhq:teaser>
+                </front>
+                <body>
+                    <div>
+                        <head>Introdução</head>
+                        <p>Por mais de uma década, a pesquisa em humanidades digitais tem sido
+                            realizada cada vez mais em todo o mundo, como evidenciado por projetos
+                            como o <title rend="italic">Around DH in 80 Days</title>, o Instituto de
+                            Inverno em Humanidades Digitais de Abu Dhabi, o <title rend="italic"
+                                >Global Debates in the Digital Humanities</title>, ou as séries de
+                            Simpósios Globais de Humanidades Digitais. Enquanto as humanidades
+                            digitais tendem a se concentrar em centros de produção de conhecimento
+                            anglófonos, como os EUA, o Reino Unido e o Canadá (fiormonte, 2016), o
+                            campo há muito se expandiu para além desses países. De fato, em resposta
+                            às intervenções autorreflexivas de críticos (fiormonte, 2016)
+                            (mcpherson, 2012) (galina-russell, 2014) (fiormonte, 2022), o campo
+                            agora busca oferecer uma representação mais pluralista das línguas do
+                            mundo. Essa onda crescente contribui para o avanço das humanidades
+                            digitais multilíngues, que envolvem iniciativas para enfrentar o viés
+                            linguístico na pesquisa digital; criar espaços para debates em línguas
+                            diferentes do inglês em conferências, periódicos e workshops; e
+                            desenvolver projetos digitais, plataformas e recursos de processamento
+                            de linguagem natural para múltiplas línguas (viola-spence, 2024).</p>
+                        <p>Apesar dessas iniciativas, as humanidades digitais ainda são, em muitos
+                            aspectos, um campo centrado na língua inglesa. Essa realidade
+                            persistente pode ser observada na tendência dos pesquisadores de citar
+                            fontes em inglês mesmo quando escrevem em outras línguas
+                            (del-rio-riande, 2022), na participação e submissões para a conferência
+                            da Alliance of Digital Humanities Organizations (ADHO) (grandjean, 2014)
+                            (bernardi, 2025), e na concentração de centros de humanidades digitais
+                            em um grupo de países de língua inglesa (fiormonte, 2016) (risam, 2018).
+                            Embora o campo esteja evoluindo e certamente existam exceções a cada um
+                            desses exemplos, as humanidades digitais continuam favorecendo o inglês
+                            tanto em termos de pesquisa quanto das várias infraestruturas que as
+                            moldam. </p>
+                        <p> Além do anglocentrismo em espaços acadêmicos, por exemplo, o viés
+                            linguístico também está presente na infraestrutura digital que apoia o
+                            trabalho em humanidades digitais. Críticos tem chamado a atenção para a
+                            falta de materiais digitalizados (pawlicka-deger, 2021) e recursos para
+                            realizar processamento de linguagem natural em línguas diferentes do
+                            inglês (viola-spence, 2024). Críticas também partem de pesquisadores que
+                            trabalham com línguas de escrita da direita para a esquerda, como árabe,
+                            persa e urdu (ghorbaninejad, 2023), que enfrentam desafios
+                            significativos ao usar ferramentas e infraestruturas de humanidades
+                            digitais projetadas para funcionar com línguas de escrita da esquerda
+                            para a direita. Essas barreiras linguísticas para a realização de
+                            trabalhos em humanidades digitais existem dentro ou além de
+                            desigualdades mais amplas na conectividade digital e na produção de
+                            conhecimento, o que tem levado pesquisadores a argumentar que as lacunas
+                            infraestruturais globais são os principais obstáculos para formar uma
+                            comunidade de prática verdadeiramente global nas humanidades digitais
+                            (pawlicka-deger, 2021).</p>
+                        <p>Para abordar algumas dessas lacunas, (spence, 2021) sugerem que as
+                            humanidades digitais poderiam sustentar uma infraestrutura multilíngue
+                            que facilite sua adaptação a línguas além do inglês e eleve a
+                            visibilidade de ferramentas e estudos em outras línguas que não o inglês
+                            em contextos globais de humanidades digitais. De maneira similar, Élika
+                            Ortega já argumentava que são necessárias plataformas de publicação
+                            multilíngues para promover zonas de contato que utilizam a tradução como
+                            uma ferramenta para revelar <quote rend="inline">complementaridades
+                                entre práticas e (des)entendimentos comuns, bem como, crucialmente,
+                                facilitar o reconhecimento e a validação de diferentes modelos de
+                                conhecimento onde for necessário</quote> (ortega, 2019, p. 182,
+                            tradução nossa) (ver também (pratt, 1991)). Comunidades de humanidades
+                            digitais têm adotado a tradução em chamadas de trabalho para
+                            conferências (grandjean, 2014), interfaces em sites de projetos de
+                            humanidades digitais (rojas-castro, 2023) e recursos de treinamento
+                            (quiroga, 2024). No entanto, grande parte da infraestrutura de pesquisa
+                            desenvolvida na América do Norte e na Europa Ocidental para acessar,
+                            pesquisar e difundir a produção acadêmica digital permanece
+                            principalmente monolíngue e projetada para falantes de inglês.</p>
+                        <p>Esse problema está presente tanto na infraestrutura comercial quanto na
+                            de acesso aberto. Do lado comercial, as interfaces de redes sociais
+                            acadêmicas como ResearchGate e Academia.edu estão disponíveis apenas em
+                            inglês. Do lado do acesso aberto, as interfaces de bancos de dados como
+                            o Diretório de Periódicos de Acesso Aberto e o OpenAlex estão
+                            disponíveis apenas em inglês.<note> Um estudo recente do OpenAlex, por
+                                exemplo, aponta para o potencial desta plataforma de melhorar a
+                                diversidade linguística, tanto em termos de pesquisa quanto nos
+                                metadados usados para descrevê-la (céspedes, 2024).</note> Esse foco
+                            no inglês em detrimento de outras línguas pode ser não intencional ou
+                            estar ligado às limitações muito reais que as iniciativas de
+                            infraestrutura aberta frequentemente enfrentam, incluindo aquelas
+                            relacionadas às complexas interconexões entre financiamento, política e
+                            capacidade. No entanto, a tradução pode contribuir para garantir que,
+                            quando e onde for apropriado, os conhecimentos de todas as origens
+                            linguísticas e culturais sejam livres e acessíveis. Caso contrário,
+                            interfaces monolíngues correm o risco de perpetuar vieses e práticas de
+                                <foreign xml:lang="en">design</foreign> infraestruturais
+                            anglocêntricos.</p>
+                        <p>Quando a infraestrutura de pesquisa digital não prioriza o
+                            multilinguismo, ela impede as pessoas de compartilharem ou descobrirem
+                            resultados de pesquisa em línguas além do inglês. Essa situação cria
+                            barreiras adicionais para a participação igualitária de pesquisadores
+                            cuja primeira língua não é o inglês e que já dedicam mais tempo e
+                            esforço à realização de atividades acadêmicas em inglês (amano,
+                            2023).</p>
+                        <p>Além disso, o monolinguismo na infraestrutura de pesquisa reforça a ideia
+                            de que o inglês é a única língua legítima para a divulgação do
+                            conhecimento acadêmico. Atualmente, o inglês é a língua franca na
+                            comunicação acadêmica, ou seja, “uma língua de contato entre falantes ou
+                            grupos de falantes quando pelo menos um deles a usa como segunda língua”
+                            (mauranen, 2017, p. 8, tradução nossa); assim, pode de fato desempenhar
+                            um papel pragmático importante e aparentemente necessário, facilitando a
+                            troca intelectual de ideias em circunstâncias onde, de outra forma, não
+                            seria possível. No entanto, o uso exclusivo do inglês também pode levar
+                            a uma homogeneização do conhecimento científico. Esse processo tem sido
+                            descrito como “epistemicídio” (bennett, 2023), porque os discursos
+                            acadêmicos em línguas além do inglês tornam-se assimilados à língua
+                            inglesa dominante para melhor se encaixarem em periódicos
+                            internacionais, desmantelando sua infraestrutura epistemológica nesse
+                            processo. O risco de epistemicídio é ainda maior nas humanidades e
+                            ciências sociais, pois são as áreas com o maior número de publicações
+                            multilíngues abordando tópicos e preocupações locais (lariviere, 2018)
+                            (pradier, 2025).</p>
+                        <p>Por todas essas razões, argumentamos que qualquer infraestrutura de
+                            pesquisa digital que pretenda apoiar a diversidade de conhecimentos em
+                            contextos disciplinares e nacionais deve trabalhar ativamente para
+                            fornecer ferramentas que facilitem, publiquem e promovam pesquisas em
+                            línguas além do inglês. Esse princípio tem sido a base do nosso próprio
+                            trabalho de infraestrutura digital, em particular o Humanities and
+                            Social Sciences (HSS) Commons, uma infraestrutura de pesquisa digital
+                            que combina elementos de redes sociais, ferramentas colaborativas e
+                            repositórios institucionais para que os usuários possam criar perfis,
+                            compartilhar publicações existentes, criar novas publicações com DOIs e
+                            licenças Creative Commons, iniciar grupos e projetos colaborativos para
+                            compartilhar arquivos e se comunicar, entre outras funções.</p>
+                        <p>Nas próximas duas seções, situamos nosso trabalho no HSS Commons no
+                            contexto das humanidades digitais multilíngues e dos bens comuns
+                            digitais de conhecimento. Em seguida, descrevemos o processo de tradução
+                            da interface do HSS Commons. Por fim, discutimos os desafios encontrados
+                            nesse processo e as direções para pesquisas futuras.</p>
+                    </div>
+                    <div>
+                        <head>Infraestrutura Multilíngue e Humanidades Digitais</head>
+                    </div>
+                </body>
+            </text>
+
         </group>
-        
+
         <back>
             <listBibl>
-               <bibl></bibl>
+
+                <bibl xml:id="amano_2023" label="Amano et al. 2023">Amano, T. et al. (2023) <title
+                        rend="quotes">The manifold costs of being a non-native English speaker in
+                        science</title>, <title rend="italic">PLOS Biology</title>, 21(7), p.
+                    e3002184. Available at: <ref
+                        target="https://doi.org/10.1371/journal.pbio.3002184"
+                        >https://doi.org/10.1371/journal.pbio.3002184</ref>. </bibl>
+                <bibl xml:id="arbuckle_2024" label="Arbuckle, Adema, and Ortega 2024">Arbuckle, A.,
+                    Adema, J. and Ortega, É. (2024) <title rend="italic">Editors’ gloss: The problem
+                        with monolingualism in academic knowledge production</title>, <title
+                        rend="italic">The Journal of Electronic Publishing</title>, 27(1). Available
+                    at: <ref target="https://doi.org/10.3998/jep.6258"
+                        >https://doi.org/10.3998/jep.6258</ref>. </bibl>
+                <bibl xml:id="balula_2019" label="Balula and Leão 2019">Balula, A. and Leão, D.
+                    (2019) <title rend="quotes">Is multilingualism seen as added-value in
+                        bibliodiversity?</title>, in <title rend="italic">ELPUB 2019 23rd edition of
+                        the International Conference on Electronic Publishing</title>. Marseille,
+                    France: Episciences.org. Available at: <ref
+                        target="https://doi.org/10.4000/proceedings.elpub.2019.17"
+                        >https://doi.org/10.4000/proceedings.elpub.2019.17</ref>. </bibl>
+                <bibl xml:id="bennett_2023" label="Bennett 2023">Bennett, K. (2023) <title
+                        rend="quotes">Translating knowledge in the multilingual paradigm: Beyond
+                        epistemicide</title>, <title rend="italic">Social Science
+                        Information</title>, 62(4), pp. 514–532. Available at: <ref
+                        target="https://doi.org/10.1177/05390184231222807"
+                        >https://doi.org/10.1177/05390184231222807</ref>. </bibl>
+                <bibl xml:id="bernardi_2025" label="Bernardi 2025">Bernardi, J. (2025) <title
+                        rend="quotes">Report on recent ADHO annual conferences: Multilingual DH in
+                        focus</title>, <title rend="italic">The Digital Orientalist</title>, 17
+                    January. Available at: <ref
+                        target="https://digitalorientalist.com/2025/01/17/report-on-recent-adho-annual-conferences-multilingual-dh-in-focus/"
+                        >https://digitalorientalist.com/2025/01/17/report-on-recent-adho-annual-conferences-multilingual-dh-in-focus/</ref>
+                    (Accessed: 13 February 2025).</bibl>
+                <bibl xml:id="bowker_2025" label="Bowker, Laakso, and Pölönen 2025">Bowker, L.,
+                    Laakso, M. and Pölönen, J. (2025) <title rend="quotes">Making the case for
+                        multilingual scholarly communication</title>, <title rend="italic">The
+                        Canadian Journal of Information and Library Science</title>, 48(1), pp.
+                    112–122. Available at: <ref
+                        target="https://doi.org/10.5206/cjils-rcsib.v48i1.22292"
+                        >https://doi.org/10.5206/cjils-rcsib.v48i1.22292</ref>. </bibl>
+                <bibl xml:id="colin-arce_2025" label="Colin-Arce 2025" sortKey="Colin">Colin-Arce,
+                    A. (2025) <title rend="quotes">Humanities and social sciences commons.
+                        Herramienta para la colaboración y difusión de resultados de
+                        investigación</title>, <title rend="italic">Desarrollos en Ciencias Sociales
+                        Computacionales</title> [Preprint], (1). Available at: <ref
+                        target="https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/article/view/2"
+                        >https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/article/view/2</ref>
+                    (Accessed: 27 March 2025). </bibl>
+                <bibl xml:id="dombrowski_2023" label="Dombrowski and Burns 2023">Dombrowski, Q. and
+                    Burns, P.J. (2023) <title rend="quotes">Language is not a default setting:
+                        Countering DH’s English problem</title>, in M.K. Gold and L.F. Klein (eds)
+                        <title rend="italic">Debates in the Digital Humanities 2023</title>.
+                    University of Minnesota Press, pp. 295–304. Available at: <ref
+                        target="http://www.jstor.org/stable/10.5749/j.ctv345pd4p.22"
+                        >http://www.jstor.org/stable/10.5749/j.ctv345pd4p.22</ref> (Accessed: 4
+                    March 2025).</bibl>
+                <bibl xml:id="fiormonte_2012" label="Fiormonte 2012" sortKey="Fiormontea">Fiormonte,
+                    D. (2012) <title rend="quotes">Towards a cultural critique of the digital
+                        humanities</title>, <title rend="italic">Historical Social Research /
+                        Historische Sozialforschung</title>, 37(3 (141)), pp. 59–76.</bibl>
+                <bibl xml:id="fiormonte_2016" label="Fiormonte 2016" sortKey="Fiormonteb">Fiormonte,
+                    D. (2016) <title rend="quotes">Toward a cultural critique of digital
+                        humanities</title>, in M.K. Gold and L.F. Klein (eds) <title rend="italic"
+                        >Debates in the Digital Humanities 2016</title>. University of Minnesota
+                    Press, pp. 438–458. Available at: <ref
+                        target="https://doi.org/10.5749/j.ctt1cn6thb.38"
+                        >https://doi.org/10.5749/j.ctt1cn6thb.38</ref>. </bibl>
+                <bibl xml:id="fiormonte_2022" label="Fiormonte, Ricaurte, and Chaudhuri 2022"
+                    sortKey="Fiormontec">Fiormonte, D., Ricaurte, P. and Chaudhuri, S. (2022) <title
+                        rend="quotes">Introduction</title>, in D. Fiormonte, S. Chaudhuri, and P.
+                    Ricaurte (eds) <title rend="italic">Global Debates in the Digital
+                        Humanities</title>. University of Minnesota Press, pp. ix–xxxviii. Available
+                    at: <ref target="http://www.jstor.org/stable/10.5749/j.ctv2d6jsjh.4"
+                        >http://www.jstor.org/stable/10.5749/j.ctv2d6jsjh.4</ref> (Accessed: 20
+                    February 2025).</bibl>
+                <bibl xml:id="galina-russell_2014" label="Galina Russel 2014">Galina Russell, I.
+                    (2014) <title rend="quotes">Geographical and linguistic diversity in the digital
+                        humanities</title>, <title rend="italic">Literary and Linguistic
+                        Computing</title>, 29(3), pp. 307–316. Available at: <ref
+                        target="https://doi.org/10.1093/llc/fqu005"
+                        >https://doi.org/10.1093/llc/fqu005</ref>. </bibl>
+                <bibl xml:id="ghorbaninejad_2023" label="Ghorbaninejad, Gibson, nd Wrisley 2023"
+                    >Ghorbaninejad, M., Gibson, N.P. and Wrisley, D.J. (2023) <title rend="quotes"
+                        >Right-to-Left (RTL) Text: Digital humanists plus half a billion
+                        users</title>, in M.K. Gold and L.F. Klein (eds) <title rend="italic"
+                        >Debates in the Digital Humanities 2023</title>. University of Minnesota
+                    Press, pp. 47–73. Available at: <ref
+                        target="http://archive.nyu.edu/handle/2451/74332"
+                        >http://archive.nyu.edu/handle/2451/74332</ref> (Accessed: 13 February
+                    2025).</bibl>
+                <bibl xml:id="grandjean_2014" label="Grandjean 2014">Grandjean, M. (2014) <title
+                        rend="quotes">Le rêve du multilinguisme dans la science : l’exemple
+                        (malheureux) du colloque #DH2014</title>, 27 June. Available at: <ref
+                        target="https://www.martingrandjean.ch/multilinguisme-dans-la-science-dh2014/"
+                        >https://www.martingrandjean.ch/multilinguisme-dans-la-science-dh2014/</ref>
+                    (Accessed: 13 February 2025).</bibl>
+                <bibl xml:id="guldi_2020" label="Guldi 2020">Guldi, J. (2020) <title rend="quotes"
+                        >Scholarly infrastructure as critical Argument: Nine principles in a
+                        preliminary survey of the bibliographic and critical values expressed by
+                        scholarly web-portals for visualizing data</title>, <title rend="italic"
+                        >Digital Humanities Quarterly</title>, 014(3). Available at: <ref
+                        target="https://dhq.digitalhumanities.org/vol/14/3/000463/000463.html"
+                        >https://dhq.digitalhumanities.org/vol/14/3/000463/000463.html</ref>
+                </bibl>
+                <bibl xml:id="hess_2006" label="Hess and Ostrom 006">Hess, C. and Ostrom, E. (2006)
+                        <title rend="quotes">Introduction: An overview of the knowledge
+                        commons</title>, in <title rend="italic">Understanding Knowledge as a
+                        Commons: From Theory to Practice</title>. The MIT Press, pp. 3–26. Available
+                    at: <ref target="https://doi.org/10.7551/mitpress/6980.003.0003"
+                        >https://doi.org/10.7551/mitpress/6980.003.0003</ref> (Accessed: 12 June
+                    2025).</bibl>
+                <bibl xml:id="jensen_2022" label="Jensen et al. 2022" sortKey="Jensena">Jensen, G.
+                    et al. (2022) <title rend="italic">Open scholarship press collections:
+                        Connection</title>. Open Scholarship Press. Available at: <ref
+                        target="https://openscholarshippress.pubpub.org/open-scholarship-press-collections-connection"
+                        >https://openscholarshippress.pubpub.org/open-scholarship-press-collections-connection</ref>
+                    (Accessed: 27 October 2023).</bibl>
+                <bibl xml:id="jensen_2023" label="Jensen 2023" sortKey="Jensenb">Jensen, G. (ed.)
+                    (2023) <title rend="italic">Open scholarship press curated volumes:
+                        Connection</title>. Open Scholarship Press. Available at: <ref
+                        target="https://openscholarshippress.pubpub.org/osp-curated-connection"
+                        >https://openscholarshippress.pubpub.org/osp-curated-connection</ref>. </bibl>
+                <bibl xml:id="jensen_2024" label="Jensen et al. 2024" sortKey="Jensenc">Jensen, G.
+                    et al. (2024) <title rend="quotes">Canadian Humanities and Social Sciences
+                        Commons (version 0.91)</title>. Victoria: Electronic Textual Cultures Lab /
+                    Canadian Social Knowledge Institute / INKE Partnership. Available at: <ref
+                        target="http://hsscommons.ca">http://hsscommons.ca</ref>. </bibl>
+                <bibl xml:id="khanna_2022" label="Khanna et al. 2022">Khanna, S. et al. (2022)
+                        <title rend="quotes">Recalibrating the scope of scholarly publishing: A
+                        modest step in a vast decolonization process</title>, <title rend="italic"
+                        >Quantitative Science Studies</title>, 3(4), pp. 912–930. Available at: <ref
+                        target="https://doi.org/10.1162/qss_a_00228"
+                        >https://doi.org/10.1162/qss_a_00228</ref>. </bibl>
+                <bibl xml:id="klein_2016" label="Klein and Gold 2016">Klein, L.F. and Gold, M.K.
+                    (2016) <title rend="quotes">Introduction: digital humanities: The expanded
+                        field</title>, in M.K. Gold and L.F. Klein (eds) <title rend="italic"
+                        >Debates in the Digital Humanities 2016</title>. University of Minnesota
+                    Press, pp. ix–xvi. Available at: <ref
+                        target="https://doi.org/10.5749/j.ctt1cn6thb.3"
+                        >https://doi.org/10.5749/j.ctt1cn6thb.3</ref>. </bibl>
+                <bibl xml:id="knowledge-commons_2024" label="Knowledge Commons 2024">Knowledge
+                    Commons (2024) <title rend="quotes">About Us – Knowledge Commons</title>, 6 May.
+                    Available at: <ref target="https://about.hcommons.org/about-us/"
+                        >https://about.hcommons.org/about-us/</ref> (Accessed: 18 February
+                    2025).</bibl>
+                <bibl xml:id="kulczycki_2020" label="Kulczycki 2020">Kulczycki, E. et al.(2020)
+                        <title rend="quotes">Multilingual publishing in the social sciences and
+                        humanities: A seven-country European study</title>, <title rend="italic"
+                        >Journal of the Association for Information Science and Technology</title>,
+                    71(11), pp. 1371–1385. Available at: <ref
+                        target="https://doi.org/10.1002/asi.24336"
+                        >https://doi.org/10.1002/asi.24336</ref>. </bibl>
+                <bibl xml:id="lariviere_2018" label="Larivière 2018" sortKey="Lariviere">Larivière,
+                    V. (2018) <title rend="quotes">Le français, langue seconde ? De l’évolution des
+                        lieux et langues de publication des chercheurs au Québec, en France et en
+                        Allemagne</title>, <title rend="italic">Recherches sociographiques</title>,
+                    59(3), pp. 339–363. Available at: <ref
+                        target="https://doi.org/10.7202/1058718ar"
+                        >https://doi.org/10.7202/1058718ar</ref>. </bibl>
+                <bibl xml:id="mauranen_2017" label="Mauranen 2017">Mauranen, A. (2017) <title
+                        rend="quotes">Conceptualising ELF</title>, in <title rend="italic">The
+                        Routledge Handbook of English as a Lingua Franca</title>. Routledge.</bibl>
+                <bibl xml:id="mcpherson_2012" label="McPherson 2012" sortKey="Mcpherson">McPherson,
+                    T. (2012) <title rend="quotes">Why are the digital humanities so white?: or
+                        thinking the histories of race and computation</title>, in M.K. Gold (ed.)
+                        <title rend="italic">Debates in the Digital Humanities</title>. NED-New
+                    edition. University of Minnesota Press, pp. 139–160. Available at: <ref
+                        target="https://www.jstor.org/stable/10.5749/j.ctttv8hq.12"
+                        >https://www.jstor.org/stable/10.5749/j.ctttv8hq.12</ref> (Accessed: 25 June
+                    2021).</bibl>
+                <bibl xml:id="nillson-fernandez_2022" label="Nilsson-Fernàndez and Dombrowski 2022"
+                    sortKey="Nilsson">Nilsson-Fernàndez, P. and Dombrowski, Q. (2022) <title
+                        rend="quotes">Multilingual Digital Humanities</title>, in <title
+                        rend="italic">The Bloomsbury Handbook to the Digital Humanities</title>.
+                    Bloomsbury Publishing, pp. 83–92.</bibl>
+                <bibl xml:id="ortega_2019" label="Ortega 2019">Ortega, É. (2019) <title
+                        rend="quotes">Zonas de contacto: A digital humanities ecology of
+                        knowledges</title>, in M.K. Gold and L.F. Klein (eds) <title rend="italic"
+                        >Debates in the Digital Humanities 2019</title>. University of Minnesota
+                    Press, pp. 179–187. Available at: <ref
+                        target="https://doi.org/10.5749/j.ctvg251hk.18"
+                        >https://doi.org/10.5749/j.ctvg251hk.18</ref>. </bibl>
+                <bibl xml:id="pawlicka-deger_2021" label="Pawlicka-Deger 2021" sortKey="Pawlicka"
+                    >Pawlicka-Deger, U. (2021) <title rend="quotes">Infrastructuring digital
+                        humanities: On relational infrastructure and global reconfiguration of the
+                        field</title>, <title rend="italic">Digital Scholarship in the
+                        Humanities</title>, p. fqab086. Available at: <ref
+                        target="https://doi.org/10.1093/llc/fqab086"
+                        >https://doi.org/10.1093/llc/fqab086</ref>. </bibl>
+                <bibl xml:id="pradier_2025" label="Pradier, Céspedes, and Larivière 2025">Pradier,
+                    C., Céspedes, L. and Larivière, V. (2025) <title rend="quotes">A smack of all
+                        neighbouring languages: How multilingual is scholarly communication?</title>
+                    arXiv. Available at: <ref target="https://doi.org/10.48550/arXiv.2504.21100"
+                        >https://doi.org/10.48550/arXiv.2504.21100</ref>. </bibl>
+                <bibl xml:id="pratt_1991" label="Pratt 1991">Pratt, M.L. (1991) <title rend="quotes"
+                        >Arts of the Contact Zone</title>, <title rend="italic">Profession</title>,
+                    pp. 33–40.</bibl>
+                <bibl xml:id="quiroga_2024" label="Quiroga et al. 2024">Quiroga, R. et al. (2024)
+                        <title rend="quotes">Sustainable growth of multilingual open publishing
+                        projects: The case of programming historian</title>, <title rend="italic"
+                        >The Journal of Electronic Publishing</title>, 27(1). Available at: <ref
+                        target="https://doi.org/10.3998/jep.5571"
+                        >https://doi.org/10.3998/jep.5571</ref>. </bibl>
+                <bibl xml:id="del-rio-riande_2022" label="del Rio Riande 2022" sortKey="Rioriande"
+                    >del Rio Riande, G. (2022) <title rend="quotes">¿En qué lengua citamos cuando
+                        escribimos sobre Humanidades Digitales?</title>, <title rend="italic"
+                        >Revista de Humanidades Digitales</title>, 7, pp. 127–143.</bibl>
+                <bibl xml:id="risam_2018" label="Risam 2018">Risam, R. (2018) <title rend="italic"
+                        >New digital worlds: Postcolonial Digital humanities in theory, praxis, and
+                        pedagogy</title>. Northwestern University Press.</bibl>
+                <bibl xml:id="rojas-castro_2023" label="Rojas Castro 2023">Rojas Castro, A. (2023)
+                        <title rend="quotes">Multilingual interfaces for all? Localisation
+                        Strategies in Proyecto Humboldt Digital</title>, in <title rend="italic"
+                        >Multilingual Digital Humanities</title>. Routledge, p. 183. Available at:
+                        <ref target="https://doi.org/10.4324/9781003393696-16"
+                        >https://doi.org/10.4324/9781003393696-16</ref>. </bibl>
+                <bibl xml:id="rosnay_2020" label="Rosnay and Stalder 2020">Rosnay, M.D. de and
+                    Stalder, F. (2020) <title rend="quotes">Digital commons</title>, <title
+                        rend="italic">Internet Policy Review</title>, 9(4). Available at: <ref
+                        target="https://doi.org/10.14763/2020.4.1530"
+                        >https://doi.org/10.14763/2020.4.1530</ref>. </bibl>
+                <bibl xml:id="siversten_2018" label="Siversten_2018">Siversten, G. (2018) <title
+                        rend="quotes">Balanced multilingualism in science</title>, <title
+                        rend="italic">BiD: textos universitaris de biblioteconomia i
+                        documentació</title> [Preprint], (40). Available at: <ref
+                        target="https://doi.org/10.1344/BiD2018.40.25"
+                        >https://doi.org/10.1344/BiD2018.40.25</ref>. </bibl>
+                <bibl xml:id="spence_2021" label="Spence and Brandao 2021">Spence, P.J. and Brandao,
+                    R. (2021) <title rend="quotes">Towards language sensitivity and diversity in the
+                        digital humanities</title>, <title rend="italic">Digital Studies / Le champ
+                        numérique</title>, 11(1). Available at: <ref
+                        target="https://doi.org/10.16995/dscn.8098"
+                        >https://doi.org/10.16995/dscn.8098</ref>. </bibl>
+                <bibl xml:id="svensson_2012" label="Svensson 2012">Svensson, P. (2012) <title
+                        rend="quotes">Beyond the big tent</title>, in M.K. Gold (ed.) <title
+                        rend="italic">Debates in the Digital Humanities</title>. NED-New edition.
+                    University of Minnesota Press, pp. 36–72. Available at: <ref
+                        target="https://www.jstor.org/stable/10.5749/j.ctttv8hq.7"
+                        >https://www.jstor.org/stable/10.5749/j.ctttv8hq.7</ref> (Accessed: 24 June
+                    2025).</bibl>
+                <bibl xml:id="tracy_2025" label="Tracy and Jensen 2025">Tracy, D. and Jensen, G.
+                    (2025) <title rend="quotes">Humanities scholars</title> needs for open social
+                    scholarship platforms as online scholarly information sharing infrastructure’,
+                        <title rend="italic">First Monday</title>, 30(2). Available at: <ref
+                        target="https://doi.org/10.5210/fm.v30i2.13742"
+                        >https://doi.org/10.5210/fm.v30i2.13742</ref>. </bibl>
+                <bibl xml:id="viola_2024a" label="Viola 2024" sortKey="Violaa">Viola, L. (2024)
+                        <title rend="quotes">Editorial: data and workflows for multilingual digital
+                        humanities</title>, <title rend="italic">Journal of Open Humanities
+                        Data</title>, 10, p. 37. Available at:
+                    https://doi.org/10.5334/johd.220.</bibl>
+                <bibl xml:id="viola-spence_2024b" label="Viola and Spence 2024" sortKey="Violab"
+                    >Viola, L. and Spence, P. (eds) (2024) <title rend="italic">Multilingual digital
+                        humanities</title>. London New York: Routledge Taylor &amp; Francis Group
+                    (Digital research in the arts and humanities).</bibl>
+                <bibl xml:id="wikipedia_2025" label="Wikipedia 2025">Wikipedia (2025) <title
+                        rend="quotes">Wikipedia:About</title>, <title rend="italic"
+                        >Wikipedia</title>. Available at: <ref
+                        target="https://en.wikipedia.org/w/index.php?title=Wikipedia:About&amp;oldid=1294462430"
+                        >https://en.wikipedia.org/w/index.php?title=Wikipedia:About&amp;oldid=1294462430</ref>
+                    (Accessed: 7 July 2025).</bibl>
+                <bibl xml:id="winter_2020" label="Winter et al. 2020">Winter, C. et al.(2020) <title
+                        rend="quotes">Foundations for the Canadian Humanities and Social Sciences
+                        Commons: Exploring the possibilities of digital research
+                    communities</title>, <title rend="italic">Pop! Public. Open.
+                        Participatory</title>, (2). Available at: <ref
+                        target="https://popjournal.ca/issue02/winter"
+                        >https://popjournal.ca/issue02/winter</ref> (Accessed: 29 March
+                    2023).</bibl>
             </listBibl>
-            
+
         </back>
     </text>
 </TEI>
