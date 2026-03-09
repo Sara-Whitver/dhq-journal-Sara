@@ -293,13 +293,163 @@
                     </div>
                     <div>
                         <head>Multilingual Infrastructure and DH</head>
-                        <p>Research infrastructure created in North America has mostly been monolingual. However, research infrastructure projects developed in Africa and Latin America show us that this does not have to be the case. AfricArXiv and Scielo, two regional repositories for disseminating and making African and Latin American research more discoverable, have designed their interfaces to include multiple languages through manual or machine translation. While this design shows willingness to connect communities from multiple parts of the world, the task of designing and maintaining multilingual research infrastructure should not fall only to those on the peripheries of knowledge production so they can be in dialogue with scholars from the Global North. If digital humanities in particular seeks to become a global community of practice, then the centers of knowledge production also have a responsibility to develop multilingual research infrastructure where digital scholarship can be accessed and disseminated in multiple languages.</p>
-                        <p>One example of this kind of much-needed work is <title rend="italic">The Programming Historian</title>, a resource that shares peer-reviewed tutorials for humanists about digital techniques and workflows. While originally developed in English, the project has expanded to include Spanish, French, and Portuguese, with some tutorials being translated and others being created directly in one of these languages. When tutorials are translated, the journal provides guidelines to ensure the translations align with the principles of the journal, such as using culturally inclusive and globally accessible language that avoids vague references to geographical locations, jokes, and jargon (quiroga, 2024). These guidelines show a commitment to developing clear and accessible translations in DH projects for a broad audience.</p>
-                        <p>Another recent initiative is the Multilingual DH Network, which connects scholars “using digital humanities tools and methods on languages other than English” through a GitHub organization and mailing list. This network has also created a bibliography on multilingual DH, established a working group in ADHO, and hosted workshops and events on multilingual DH.</p>
-                        <p>Both <title rend="italic">The Programming Historian</title> and the Multilingual DH Network contribute to the idea that DH is not a coordinated and monolithic menagerie gathered under a single “big tent,”<note> One metaphor that has gained traction as a descriptor for DH as a whole — but also intersects with ongoing conversations regarding digital knowledge commons — is the “expanded field”: moving away from the “big tent” metaphor used a decade ago to portray DH as a diverse and capacious yet ultimately unified and coherent field, Lauren F. Klein and Matthew K. Gold (2016) embraced this metaphor, which they borrow from Rosalind Krauss, as part of a larger attempt to reimagine DH in more unstructured, indeterminate, and inclusive terms. Years earlier, Patrik Svensson also sought to disassemble the DH big tent by reframing it as “a meeting place, innovation hub, and trading zone” (svensson, 2012). Notably, both of these newly posited metaphors — Klein and Gold’s expanded field and Svensson’s trading zone — resonate with the spatial metaphor of the commons that we invoke in the following section of this paper. For example, like the expanded field of DH, digital knowledge commons and the zones of contact they create are less “big tents” or bounded spaces to be fenced off (or flapped up, as it were) than distributed, deliberately porous, and emphatically social networks; digital commons often function as one data island among — and intentionally linked to — many others. Moreover, knowledge commons in general are also reminiscent of Svensson’s trading zone in the sense that they are, first and foremost, sites of intellectual and often multilingual exchange.</note> but rather a complex of scholars and scholarly communities active across disciplinary, institutional, national, and linguistic lines. Seeing DH in these unstructured and inclusive terms, as opposed to a unified field, fosters zones of contact that connect different languages and research traditions while showing how they complement or contrast each other. However, this work has been more focused on conducting multilingual research rather than infrastructure-building.</p>
-                        <p>Research infrastructures are important for multilingual DH because they are increasingly created and used to access, analyze, and visualize cultural data, and their development is informed by an engagement with certain values that structure and constrain the format of the arguments produced over them (guldi, 2020). Jo Guldi mentions two principles that guide the values of infrastructure building: bibliographic (consisting of values such as transparency, interoperability, and plurality of humanistic desires) and critical (consisting of the values of community ownership and the belief that the democratization of access to information breeds better democracy). One value that could be added to Guldi’s list is multilingualism to foster connections between diverse audiences, as exemplified by Scielo, AfricArXiv, The Programming Historian, and the Multilingual DH Network.</p>
-                        <p>While supporting multilingualism requires funding, multilingualism can also be sustained by the scholarly community when it is prioritized as a value. For example, Open Journal Systems (OJS), a software and infrastructure that supports thousands of open access journals, has crowdsourced translations of its interface and documentation in multiple languages. OJS is a case of a multilingual infrastructure that supports other multilingual projects, as journals have used this software to publish in 60 languages (khanna., 2022).</p>
-                        <p>Multilingualism is an important value for infrastructure because it leads to increased equity for scholars, greater epistemological diversity, and broader societal access to knowledge (bowker, 2025). Accordingly, multilingualism should be a priority — especially for open access infrastructures; cost is not the only barrier to accessing knowledge. Fluency in the English language can also be a barrier that excludes non-native English speakers from openly accessing and disseminating knowledge.</p>
+                        <p>Research infrastructure created in North America has mostly been
+                            monolingual. However, research infrastructure projects developed in
+                            Africa and Latin America show us that this does not have to be the case.
+                            AfricArXiv and Scielo, two regional repositories for disseminating and
+                            making African and Latin American research more discoverable, have
+                            designed their interfaces to include multiple languages through manual
+                            or machine translation. While this design shows willingness to connect
+                            communities from multiple parts of the world, the task of designing and
+                            maintaining multilingual research infrastructure should not fall only to
+                            those on the peripheries of knowledge production so they can be in
+                            dialogue with scholars from the Global North. If digital humanities in
+                            particular seeks to become a global community of practice, then the
+                            centers of knowledge production also have a responsibility to develop
+                            multilingual research infrastructure where digital scholarship can be
+                            accessed and disseminated in multiple languages.</p>
+                        <p>One example of this kind of much-needed work is <title rend="italic">The
+                                Programming Historian</title>, a resource that shares peer-reviewed
+                            tutorials for humanists about digital techniques and workflows. While
+                            originally developed in English, the project has expanded to include
+                            Spanish, French, and Portuguese, with some tutorials being translated
+                            and others being created directly in one of these languages. When
+                            tutorials are translated, the journal provides guidelines to ensure the
+                            translations align with the principles of the journal, such as using
+                            culturally inclusive and globally accessible language that avoids vague
+                            references to geographical locations, jokes, and jargon (quiroga, 2024).
+                            These guidelines show a commitment to developing clear and accessible
+                            translations in DH projects for a broad audience.</p>
+                        <p>Another recent initiative is the Multilingual DH Network, which connects
+                            scholars “using digital humanities tools and methods on languages other
+                            than English” through a GitHub organization and mailing list. This
+                            network has also created a bibliography on multilingual DH, established
+                            a working group in ADHO, and hosted workshops and events on multilingual
+                            DH.</p>
+                        <p>Both <title rend="italic">The Programming Historian</title> and the
+                            Multilingual DH Network contribute to the idea that DH is not a
+                            coordinated and monolithic menagerie gathered under a single “big
+                                tent,”<note> One metaphor that has gained traction as a descriptor
+                                for DH as a whole — but also intersects with ongoing conversations
+                                regarding digital knowledge commons — is the “expanded field”:
+                                moving away from the “big tent” metaphor used a decade ago to
+                                portray DH as a diverse and capacious yet ultimately unified and
+                                coherent field, Lauren F. Klein and Matthew K. Gold (2016) embraced
+                                this metaphor, which they borrow from Rosalind Krauss, as part of a
+                                larger attempt to reimagine DH in more unstructured, indeterminate,
+                                and inclusive terms. Years earlier, Patrik Svensson also sought to
+                                disassemble the DH big tent by reframing it as “a meeting place,
+                                innovation hub, and trading zone” (svensson, 2012). Notably, both of
+                                these newly posited metaphors — Klein and Gold’s expanded field and
+                                Svensson’s trading zone — resonate with the spatial metaphor of the
+                                commons that we invoke in the following section of this paper. For
+                                example, like the expanded field of DH, digital knowledge commons
+                                and the zones of contact they create are less “big tents” or bounded
+                                spaces to be fenced off (or flapped up, as it were) than
+                                distributed, deliberately porous, and emphatically social networks;
+                                digital commons often function as one data island among — and
+                                intentionally linked to — many others. Moreover, knowledge commons
+                                in general are also reminiscent of Svensson’s trading zone in the
+                                sense that they are, first and foremost, sites of intellectual and
+                                often multilingual exchange.</note> but rather a complex of scholars
+                            and scholarly communities active across disciplinary, institutional,
+                            national, and linguistic lines. Seeing DH in these unstructured and
+                            inclusive terms, as opposed to a unified field, fosters zones of contact
+                            that connect different languages and research traditions while showing
+                            how they complement or contrast each other. However, this work has been
+                            more focused on conducting multilingual research rather than
+                            infrastructure-building.</p>
+                        <p>Research infrastructures are important for multilingual DH because they
+                            are increasingly created and used to access, analyze, and visualize
+                            cultural data, and their development is informed by an engagement with
+                            certain values that structure and constrain the format of the arguments
+                            produced over them (guldi, 2020). Jo Guldi mentions two principles that
+                            guide the values of infrastructure building: bibliographic (consisting
+                            of values such as transparency, interoperability, and plurality of
+                            humanistic desires) and critical (consisting of the values of community
+                            ownership and the belief that the democratization of access to
+                            information breeds better democracy). One value that could be added to
+                            Guldi’s list is multilingualism to foster connections between diverse
+                            audiences, as exemplified by Scielo, AfricArXiv, The Programming
+                            Historian, and the Multilingual DH Network.</p>
+                        <p>While supporting multilingualism requires funding, multilingualism can
+                            also be sustained by the scholarly community when it is prioritized as a
+                            value. For example, Open Journal Systems (OJS), a software and
+                            infrastructure that supports thousands of open access journals, has
+                            crowdsourced translations of its interface and documentation in multiple
+                            languages. OJS is a case of a multilingual infrastructure that supports
+                            other multilingual projects, as journals have used this software to
+                            publish in 60 languages (khanna., 2022).</p>
+                        <p>Multilingualism is an important value for infrastructure because it leads
+                            to increased equity for scholars, greater epistemological diversity, and
+                            broader societal access to knowledge (bowker, 2025). Accordingly,
+                            multilingualism should be a priority — especially for open access
+                            infrastructures; cost is not the only barrier to accessing knowledge.
+                            Fluency in the English language can also be a barrier that excludes
+                            non-native English speakers from openly accessing and disseminating
+                            knowledge.</p>
+                    </div>
+                    <div>
+                        <head>Multilingual Knowledge Commons</head>
+                        <p>One form of open access infrastructure currently being developed and
+                            leveraged by DH communities is digital knowledge commons, which are
+                            online spaces that view knowledge as a complex, global, shared resource
+                            (hess, 2006).<note> A more detailed discussion of knowledge commons
+                                falls outside of the scope of this paper. For more information about
+                                the history, theoretical foundations, and digital evolution of
+                                knowledge commons, see, e.g., (winter, 2020) (jensen, 2022 (jensen,
+                                2023).</note> This perspective has inspired projects to build
+                            digital knowledge commons in the humanities that provide equitable
+                            online access to data, information, culture, and knowledge (rosnay,
+                            2020). Initiatives such as Wikipedia, Wikimedia Commons, Creative
+                            Commons, and Knowledge Commons (previously called Humanities Commons)
+                            have been used in the digital humanities to openly share scholarship.
+                            These projects have goals such as giving “free access to the sum of all
+                            human knowledge” (wikipedia, 2025) or cultivating “open spaces for us
+                            all to connect, create, share, and experiment […] to transform global
+                            knowledge systems” (knowledge-commons, 2024).</p>
+                        <p>These aspirations, while remarkable, can conceal barriers of entry:
+                            fluency in the English language or, in lieu of that, familiarity with
+                            and easy access to translation tools. For example, the English version
+                            of Wikipedia has over 7 million articles, more than twice the number of
+                            articles in the German version, the second largest Wikipedia by number
+                            of articles, with around 3 million. This imbalance prevents non-English
+                            speakers from accessing parts of the sum of human knowledge available on
+                            Wikipedia. Nonetheless, Wikipedia’s multilingual interface and content
+                            are still necessary because around 23% of articles on each version of
+                            Wikipedia specifically relate to the cultural context of that language
+                            and are not always available in other languages. Therefore, multilingual
+                            interfaces encourage local, context-informed online participation in
+                            languages other than English.</p>
+                        <p>If digital knowledge commons do not support multiple languages, then
+                            there is a higher barrier to sharing knowledge about the local contexts
+                            of each language. Therefore, language should be at the center of
+                            discussions on how to redistribute power and authority in the global
+                            systems of knowledge production (pawlicka-deger, 2021). Otherwise,
+                            digital knowledge commons and the infrastructure that supports them risk
+                            democratizing only information in English and dismissing the role of
+                            language in the production of knowledge, since privileging English can
+                            also privilege Western viewpoints and knowledge systems (arbuckle, 2024)
+                            (bowker, 2025).</p>
+                        <p>In addition to providing online access to culture or information, digital
+                            knowledge commons should also reflect on the language(s) forming these
+                            commons, especially if they seek to transform global knowledge systems,
+                            considering that the use of English in academic publications has
+                            decreased from 93.86% of scholarly documents in 1990 to 85.51% in 2023
+                            (pradier, 2025). While the majority of documents are in English, the
+                            humanities and social sciences (HSS) show the highest openness to
+                            multilingualism, as 40% of HSS journals are multilingual or publish in
+                            languages other than English (pradier, 2025). Furthermore, around half
+                            of the researchers in these disciplines publish in two languages or more
+                            (kulczycki, 2020).</p>
+                        <p>In this context, where multiple languages co-exist in the humanities and
+                            social sciences, treating knowledge as a common resource requires that
+                            communities “sit down and redefine collectively and dynamically what
+                            knowledge(s) is (are) and how each piece of knowledge could be digitally
+                            represented” (fiormonte, 2016, p. 452) — including by considering the
+                            languages needed to represent them. Therefore, the infrastructure that
+                            supports scholarly publishing in the HSS, especially knowledge commons,
+                            require multilingual support as one of the values of their design.</p>
                     </div>
                 </body>
             </text>
@@ -471,13 +621,123 @@
                     </div>
                     <div>
                         <head>Infraestructura multilingüe y humanidades digitales</head>
-                        <p>La infraestructura de investigación creada en Norteamérica ha sido monolingüe en su mayoría. Sin embargo, los proyectos de infraestructura de investigación desarrollados en África y América Latina nos muestran que esto no tiene que ser así. AfricArXiv y Scielo, dos repositorios regionales para difundir y hacer descubrible la investigación africana y latinoamericana, han diseñado sus interfaces para incluir múltiples idiomas mediante traducción manual o automática. Aunque este diseño muestra la voluntad de conectar comunidades de diferentes partes del mundo, la tarea de diseñar y mantener infraestructuras de investigación multilingües no debería recaer únicamente en quienes están en las periferias de la producción de conocimiento para que puedan dialogar con académicos del Norte Global. Si las humanidades digitales, en particular, buscan convertirse en una comunidad global de práctica, entonces los centros de producción de conocimiento también tienen la responsabilidad de desarrollar infraestructuras de investigación multilingües donde se pueda acceder y difundir la investigación digital en múltiples idiomas.</p>
-                        <p>Un ejemplo de este tipo de trabajo tan necesario es <title rend="italic">The Programming Historian</title>, un recurso que comparte tutoriales revisados por pares para humanistas sobre técnicas y métodos digitales. Aunque el proyecto fue originalmente desarrollado en inglés, éste se ha expandido para incluir español, francés y portugués, con algunos tutoriales traducidos y otros creados directamente en uno de estos idiomas. Cuando se traducen los tutoriales, la revista proporciona directrices para garantizar que las traducciones se alineen con los principios de la revista, como el uso de un lenguaje culturalmente inclusivo y globalmente accesible que evita referencias vagas a ubicaciones geográficas, chistes y jerga (quiroga, 2024). Estas directrices muestran un compromiso con el desarrollo de traducciones claras y accesibles en proyectos de DH para una audiencia amplia.</p>
-                        <p>Otra iniciativa reciente es la Red Multilingüe de Humanidades Digitales (Multilingual DH Network), que conecta a académicos “que utilizan herramientas y métodos de humanidades digitales en idiomas distintos del inglés” a través de una organización en GitHub y una lista de correo. Esta red también ha creado una bibliografía sobre humanidades digitales multilingües, establecido un grupo de trabajo en ADHO y organizado talleres y eventos sobre humanidades digitales multilingües.</p>
-                        <p>Tanto The Programming Historian como la Red Multilingüe de Humanidades Digitales contribuyen a la idea de que las HD no son una aglomeración coordinada y monolítica reunida bajo una sola “gran carpa”,<note>  Una metáfora que ha ganado fuerza para describir a las humanidades digitales en su conjunto, pero que también se cruza con conversaciones sobre los bienes comunes digitales de conocimiento, es la de un “campo ampliado”. Esta idea se aleja de la metáfora de la “gran carpa” utilizada hace una década para retratar a las humanidades digitales como un campo diverso y amplio, pero que en última instancia es unificado y coherente. Lauren F. Klein y Matthew K. Gold (2016) utilizaron esta metáfora, que toman de Rosalind Krauss, como parte de un intento más amplio de reimaginar las humanidades digitales en términos más desestructurados, indeterminados e inclusivos. Años antes, Patrik Svensson (2012) también buscó desmontar la gran carpa de las humanidades digitales al reformularla como “un lugar de encuentro, un centro de innovación y una zona de intercambio” (svenssen, 2012) Es notable que ambas metáforas — el campo ampliado de Klein y Gold y la zona de intercambio de Svensson — se relacionan con la metáfora espacial de los bienes comunes que invocamos en la siguiente sección de este texto. Por ejemplo, al igual que el campo ampliado de las HD, los bienes comunes digitales de conocimiento y las zonas de contacto que crean son menos “grandes carpas” o espacios delimitados que deben cercarse (o levantarse, por así decirlo). En cambio, los bienes comunes digitales de conocimiento son redes sociales distribuidas, deliberadamente porosas y enfáticamente sociales; los bienes comunes digitales a menudo funcionan como una isla de datos entre muchas otras, e intencionadamente vinculadas a ellas. Además, los bienes comunes de conocimiento en general también se relacionan a la zona de intercambio de Svensson en el sentido de que son, ante todo, sitios de intercambio intelectual y, a menudo, multilingües.</note> sino más bien un complejo de investigadores y comunidades académicas activas a través de líneas disciplinares, institucionales, nacionales y lingüísticas. Ver las HD en estos términos no estructurados e inclusivos (en lugar de un campo unificado) fomenta zonas de contacto que conectan diferentes idiomas y tradiciones de investigación, mostrando cómo se complementan o contrastan entre sí. Sin embargo, este trabajo ha estado más enfocado en realizar investigaciones multilingües que en construir infraestructura.</p>
-                        <p>Las infraestructuras de investigación son importantes para las humanidades digitales multilingües porque cada vez se crean y utilizan más estas infraestructuras para obtener, analizar y visualizar datos culturales, y su desarrollo está informado por un apego a ciertos valores que estructuran y restringen el formato de los argumentos producidos sobre ellas (guldi, 2020). Jo Guldi menciona dos principios que guían los valores en el desarrollo de infraestructuras: un principio bibliográfico (que consiste en valores como la transparencia, la interoperabilidad y la pluralidad de deseos humanísticos) y un principio crítico (que consiste en los valores de propiedad comunitaria y la creencia de que la democratización del acceso a la información genera una mejor democracia). Un valor que podría añadirse a la lista de Guldi es el multilingüismo para fomentar conexiones entre audiencias diversas, como lo ejemplifican Scielo, AfricArXiv, The Programming Historian y la Red Multilingüe de DH.</p>
-                        <p>Aunque el multilingüismo requiere de financiamiento, también puede ser sostenido por la comunidad académica cuando se prioriza como un valor. Por ejemplo, Open Journal Systems (OJS), un software e infraestructura que soporta miles de revistas de acceso abierto, ha usado las traducciones colaborativas para tener su interfaz y documentación disponibles en múltiples idiomas. OJS es un caso de infraestructura multilingüe que apoya otros proyectos multilingües, ya que las revistas académicas han utilizado este software para publicar en 60 idiomas (khanna, 2022).</p>
-                        <p>El multilingüismo es un valor importante para la infraestructura digital porque conduce a una mayor equidad para los académicos, una mayor diversidad epistemológica y un acceso más amplio al conocimiento (bowker, 2025). En consecuencia, el multilingüismo debería ser una prioridad, especialmente para las infraestructuras de acceso abierto porque los costos no son la única barrera para acceder al conocimiento. El dominio del inglés también puede ser una barrera que impide a investigadores no anglófonos acceder y difundir conocimiento de manera abierta.</p>
+                        <p>La infraestructura de investigación creada en Norteamérica ha sido
+                            monolingüe en su mayoría. Sin embargo, los proyectos de infraestructura
+                            de investigación desarrollados en África y América Latina nos muestran
+                            que esto no tiene que ser así. AfricArXiv y Scielo, dos repositorios
+                            regionales para difundir y hacer descubrible la investigación africana y
+                            latinoamericana, han diseñado sus interfaces para incluir múltiples
+                            idiomas mediante traducción manual o automática. Aunque este diseño
+                            muestra la voluntad de conectar comunidades de diferentes partes del
+                            mundo, la tarea de diseñar y mantener infraestructuras de investigación
+                            multilingües no debería recaer únicamente en quienes están en las
+                            periferias de la producción de conocimiento para que puedan dialogar con
+                            académicos del Norte Global. Si las humanidades digitales, en
+                            particular, buscan convertirse en una comunidad global de práctica,
+                            entonces los centros de producción de conocimiento también tienen la
+                            responsabilidad de desarrollar infraestructuras de investigación
+                            multilingües donde se pueda acceder y difundir la investigación digital
+                            en múltiples idiomas.</p>
+                        <p>Un ejemplo de este tipo de trabajo tan necesario es <title rend="italic"
+                                >The Programming Historian</title>, un recurso que comparte
+                            tutoriales revisados por pares para humanistas sobre técnicas y métodos
+                            digitales. Aunque el proyecto fue originalmente desarrollado en inglés,
+                            éste se ha expandido para incluir español, francés y portugués, con
+                            algunos tutoriales traducidos y otros creados directamente en uno de
+                            estos idiomas. Cuando se traducen los tutoriales, la revista proporciona
+                            directrices para garantizar que las traducciones se alineen con los
+                            principios de la revista, como el uso de un lenguaje culturalmente
+                            inclusivo y globalmente accesible que evita referencias vagas a
+                            ubicaciones geográficas, chistes y jerga (quiroga, 2024). Estas
+                            directrices muestran un compromiso con el desarrollo de traducciones
+                            claras y accesibles en proyectos de DH para una audiencia amplia.</p>
+                        <p>Otra iniciativa reciente es la Red Multilingüe de Humanidades Digitales
+                            (Multilingual DH Network), que conecta a académicos “que utilizan
+                            herramientas y métodos de humanidades digitales en idiomas distintos del
+                            inglés” a través de una organización en GitHub y una lista de correo.
+                            Esta red también ha creado una bibliografía sobre humanidades digitales
+                            multilingües, establecido un grupo de trabajo en ADHO y organizado
+                            talleres y eventos sobre humanidades digitales multilingües.</p>
+                        <p>Tanto The Programming Historian como la Red Multilingüe de Humanidades
+                            Digitales contribuyen a la idea de que las HD no son una aglomeración
+                            coordinada y monolítica reunida bajo una sola “gran carpa”,<note> Una
+                                metáfora que ha ganado fuerza para describir a las humanidades
+                                digitales en su conjunto, pero que también se cruza con
+                                conversaciones sobre los bienes comunes digitales de conocimiento,
+                                es la de un “campo ampliado”. Esta idea se aleja de la metáfora de
+                                la “gran carpa” utilizada hace una década para retratar a las
+                                humanidades digitales como un campo diverso y amplio, pero que en
+                                última instancia es unificado y coherente. Lauren F. Klein y Matthew
+                                K. Gold (2016) utilizaron esta metáfora, que toman de Rosalind
+                                Krauss, como parte de un intento más amplio de reimaginar las
+                                humanidades digitales en términos más desestructurados,
+                                indeterminados e inclusivos. Años antes, Patrik Svensson (2012)
+                                también buscó desmontar la gran carpa de las humanidades digitales
+                                al reformularla como “un lugar de encuentro, un centro de innovación
+                                y una zona de intercambio” (svenssen, 2012) Es notable que ambas
+                                metáforas — el campo ampliado de Klein y Gold y la zona de
+                                intercambio de Svensson — se relacionan con la metáfora espacial de
+                                los bienes comunes que invocamos en la siguiente sección de este
+                                texto. Por ejemplo, al igual que el campo ampliado de las HD, los
+                                bienes comunes digitales de conocimiento y las zonas de contacto que
+                                crean son menos “grandes carpas” o espacios delimitados que deben
+                                cercarse (o levantarse, por así decirlo). En cambio, los bienes
+                                comunes digitales de conocimiento son redes sociales distribuidas,
+                                deliberadamente porosas y enfáticamente sociales; los bienes comunes
+                                digitales a menudo funcionan como una isla de datos entre muchas
+                                otras, e intencionadamente vinculadas a ellas. Además, los bienes
+                                comunes de conocimiento en general también se relacionan a la zona
+                                de intercambio de Svensson en el sentido de que son, ante todo,
+                                sitios de intercambio intelectual y, a menudo, multilingües.</note>
+                            sino más bien un complejo de investigadores y comunidades académicas
+                            activas a través de líneas disciplinares, institucionales, nacionales y
+                            lingüísticas. Ver las HD en estos términos no estructurados e inclusivos
+                            (en lugar de un campo unificado) fomenta zonas de contacto que conectan
+                            diferentes idiomas y tradiciones de investigación, mostrando cómo se
+                            complementan o contrastan entre sí. Sin embargo, este trabajo ha estado
+                            más enfocado en realizar investigaciones multilingües que en construir
+                            infraestructura.</p>
+                        <p>Las infraestructuras de investigación son importantes para las
+                            humanidades digitales multilingües porque cada vez se crean y utilizan
+                            más estas infraestructuras para obtener, analizar y visualizar datos
+                            culturales, y su desarrollo está informado por un apego a ciertos
+                            valores que estructuran y restringen el formato de los argumentos
+                            producidos sobre ellas (guldi, 2020). Jo Guldi menciona dos principios
+                            que guían los valores en el desarrollo de infraestructuras: un principio
+                            bibliográfico (que consiste en valores como la transparencia, la
+                            interoperabilidad y la pluralidad de deseos humanísticos) y un principio
+                            crítico (que consiste en los valores de propiedad comunitaria y la
+                            creencia de que la democratización del acceso a la información genera
+                            una mejor democracia). Un valor que podría añadirse a la lista de Guldi
+                            es el multilingüismo para fomentar conexiones entre audiencias diversas,
+                            como lo ejemplifican Scielo, AfricArXiv, The Programming Historian y la
+                            Red Multilingüe de DH.</p>
+                        <p>Aunque el multilingüismo requiere de financiamiento, también puede ser
+                            sostenido por la comunidad académica cuando se prioriza como un valor.
+                            Por ejemplo, Open Journal Systems (OJS), un software e infraestructura
+                            que soporta miles de revistas de acceso abierto, ha usado las
+                            traducciones colaborativas para tener su interfaz y documentación
+                            disponibles en múltiples idiomas. OJS es un caso de infraestructura
+                            multilingüe que apoya otros proyectos multilingües, ya que las revistas
+                            académicas han utilizado este software para publicar en 60 idiomas
+                            (khanna, 2022).</p>
+                        <p>El multilingüismo es un valor importante para la infraestructura digital
+                            porque conduce a una mayor equidad para los académicos, una mayor
+                            diversidad epistemológica y un acceso más amplio al conocimiento
+                            (bowker, 2025). En consecuencia, el multilingüismo debería ser una
+                            prioridad, especialmente para las infraestructuras de acceso abierto
+                            porque los costos no son la única barrera para acceder al conocimiento.
+                            El dominio del inglés también puede ser una barrera que impide a
+                            investigadores no anglófonos acceder y difundir conocimiento de manera
+                            abierta.</p>
+                    </div>
+                    <div>
+                        <head>Bienes comunes de conocimiento multilingües</head>
+                        <p>Una forma de infraestructura de acceso abierto que actualmente está siendo desarrollada y utilizada por las comunidades de HD son los bienes comunes digitales de conocimiento, que son espacios en línea que consideran el conocimiento como un recurso complejo, global y compartido (Hess y Ostrom, 2006).<note> Una discusión más detallada sobre los bienes comunes del conocimiento queda fuera del alcance de este artículo. Para más información sobre la historia, los fundamentos teóricos y la evolución digital de los bienes comunes del conocimiento, consulte (winter, 2020) (jensen, 2022) (jensen, 2023).</note> Esta perspectiva ha inspirado proyectos para construir bienes comunes digitales de conocimiento en las humanidades que brinden acceso equitativo en línea a datos, información, cultura y conocimiento (Rosnay y Stalder, 2020). Iniciativas como Wikipedia, Wikimedia Commons, Creative Commons y Knowledge Commons (anteriormente llamado Humanities Commons) se han utilizado en las humanidades digitales para compartir investigaciones abiertamente. Estos proyectos tienen metas como ofrecer “acceso gratuito a la suma de todo el conocimiento humano” (wikipedia, 2025, traducción propia) o cultivar “espacios abiertos para que todos podamos conectar, crear, compartir y experimentar […] para transformar los sistemas de conocimiento globales” (knowledge-commons, 2024, traducción propia).</p>
+                        <p>Estas aspiraciones, aunque notables, pueden ocultar una barrera de entrada: la fluidez en el idioma inglés o, al menos, familiaridad y acceso a herramientas automáticas de traducción. Por ejemplo, la versión en inglés de Wikipedia tiene más de 7 millones de artículos, más del doble que la cantidad de artículos en la versión alemana, la segunda Wikipedia más grande por número de artículos, con alrededor de 3 millones. Este desequilibrio impide que las personas no anglófonas accedan a partes del conjunto del conocimiento humano disponibles en Wikipedia. Sin embargo, la interfaz multilingüe y el contenido de Wikipedia siguen siendo necesarios porque alrededor del 23% de los artículos en cada versión de Wikipedia están específicamente relacionados con el contexto cultural de ese idioma y no siempre están disponibles en otros idiomas. Por lo tanto, las interfaces multilingües fomentan la participación local, contextualizada y en idiomas distintos del inglés.</p>
+                        <p>Si los bienes comunes digitales de conocimiento no apoyan múltiples idiomas, entonces existe una barrera importante para compartir conocimientos sobre los contextos locales de cada idioma. Por lo tanto, el idioma debe estar en el centro de las discusiones sobre cómo redistribuir el poder y la autoridad en los sistemas globales de producción de conocimiento (pawlicka-deger, 2021). De lo contrario, los bienes comunes digitales de conocimiento y la infraestructura que los respalda corren el riesgo de democratizar solo la información en inglés y de desestimar el papel del idioma en la producción de conocimiento, ya que privilegiar el inglés también puede privilegiar los puntos de vista y sistemas de conocimiento occidentales (arbuckle, 2024) (bowker, 2025).</p>
+                        <p>Además de ofrecer acceso en línea a la cultura o la información, los bienes comunes digitales del conocimiento también deberían reflexionar sobre el o los idiomas que los conforman, especialmente si buscan transformar los sistemas de conocimiento globales, considerando que el uso del inglés en publicaciones académicas ha disminuido del 93.86 % de los documentos académicos en 1990 al 85.51 % en 2023 (pradier, 2025). Aunque la mayoría de los documentos están en inglés, las humanidades y las ciencias sociales muestran la mayor apertura al multilingüismo, ya que el 40% de las revistas en estas disciplinas son multilingües o publican en idiomas distintos del inglés (pradier, 2025). Además, alrededor de la mitad de los investigadores en humanidades y ciencias sociales publican en dos o más idiomas (kulczycki, 2020).</p>
+                        <p>En este contexto donde coexisten múltiples idiomas en las humanidades y las ciencias sociales, tratar el conocimiento como un recurso común requiere que las comunidades “se sienten y redefinan de manera colectiva y dinámica qué es el (los) conocimiento(s) y cómo cada parte del conocimiento podría representarse digitalmente” (fiormonte, 2016, p. 452, traducción propia), incluyendo una reflexión de los idiomas necesarios para representarlos. Por lo tanto, la infraestructura que sustenta la publicación académica en las humanidades y las ciencias sociales, especialmente los bienes comunes de conocimiento, requiere de soporte multilingüe como uno de los valores de su diseño.</p>
                     </div>
                 </body>
             </text>
@@ -644,7 +904,126 @@
                     </div>
                     <div>
                         <head>Infraestrutura Multilíngue e Humanidades Digitais</head>
+                        <p>A infraestrutura de pesquisa criada na América do Norte tem sido
+                            principalmente monolíngue. Contudo, projetos de infraestrutura de
+                            pesquisa desenvolvidos na África e na América Latina mostram que isso
+                            não precisa ser assim. AfricArXiv e Scielo, dois repositórios regionais
+                            para difundir e tornar a pesquisa africana e latino-americana mais
+                            acessível, desenvolveram suas interfaces para incluir múltiplos idiomas
+                            por meio de tradução manual ou automática. Embora esse <foreign
+                                xml:lang="en">design</foreign> demonstre disposição para conectar
+                            comunidades de várias partes do mundo, a tarefa de projetar e manter uma
+                            infraestrutura de pesquisa multilíngue não deve ficar apenas a cargo
+                            daqueles nas periferias da produção de conhecimento para que possa haver
+                            diálogo com pesquisadores do Norte Global. Se as humanidades digitais,
+                            em particular, buscam se tornar uma comunidade global de prática, então
+                            os centros de produção de conhecimento também têm a responsabilidade de
+                            desenvolver infraestrutura de pesquisa multilíngue, onde a pesquisa
+                            digital possa vir a ser acessada e divulgada em vários idiomas.</p>
+                        <p>Um exemplo desse tipo de trabalho tão necessário é o <title rend="italic"
+                                xml:lang="en">The Programming Historian</title>, um recurso que
+                            compartilha tutoriais revisados por pares para humanistas sobre técnicas
+                            e fluxos de trabalho digitais. Embora originalmente desenvolvido em
+                            inglês, o projeto foi expandido para incluir espanhol, francês e
+                            português, com alguns tutoriais sendo traduzidos e outros sendo criados
+                            diretamente em uma dessas línguas. Quando os tutoriais são traduzidos, o
+                            periódico fornece diretrizes para garantir que as traduções estejam
+                            alinhadas com seus princípios, como o uso de uma linguagem culturalmente
+                            inclusiva e globalmente acessível que evita referências vagas a locais
+                            geográficos, piadas e jargões (quiroga, 2024). Essas diretrizes
+                            demonstram um compromisso com o desenvolvimento de traduções claras e
+                            acessíveis em projetos de humanidades digitais para um público
+                            amplo.</p>
+                        <p>Outra iniciativa recente é a Rede Multilíngue de Humanidades Digitais
+                                (<foreign xml:lang="en">Multilingual DH Network</foreign>), que
+                            conecta pesquisadores <quote rend="inline">que usam ferramentas e
+                                métodos de humanidades digitais em línguas diferentes do
+                                inglês</quote> através de uma organização no GitHub e uma <foreign
+                                xml:lang="en">mailing list</foreign>. Essa rede também criou uma
+                            bibliografia sobre humanidades digitais multilíngues, estabeleceu um
+                            grupo de trabalho na ADHO e realizou oficinas e eventos sobre
+                            humanidades digitais multilíngues.</p>
+                        <p>Tanto o The Programming Historian quanto a Rede Multilíngue de
+                            Humanidades Digitais contribuem para a ideia de que as humanidades
+                            digitais não constituem um conjunto monolítico e coordenado reunido sob
+                            uma única “grande tenda”,<note> Uma metáfora que ganhou força para
+                                descrever as humanidades digitais como um todo — mas que também se
+                                cruza com conversas em andamento sobre bens comuns digitais de
+                                conhecimento — é a de “campo expandido.” Afastando-se da metáfora da
+                                “grande tenda” usada há uma década para retratar as humanidades
+                                digitais como um campo diversificado e amplo, mas que, em última
+                                análise, é unificado e coerente, Lauren F. Klein e Matthew K. Gold
+                                (2016) adotaram essa metáfora, que eles tomam emprestada de Rosalind
+                                Krauss, como parte de uma tentativa maior de reimaginar as
+                                humanidades digitais em termos mais não estruturados, indeterminados
+                                e inclusivos. Anos antes, Patrik Svensson também buscou desmontar a
+                                grande tenda das humanidades digitais ao reformulá-la como “um local
+                                de encontro, centro de inovação e zona de intercâmbio” (Svensson,
+                                2012). Notavelmente, ambas essas metáforas recém-propostas — o
+                                “campo expandido” de Klein e Gold e a “zona de intercâmbio” de
+                                Svensson — se relacionam com a metáfora espacial dos bens comuns que
+                                invocamos na seção seguinte deste artigo. Por exemplo, como o campo
+                                expandido das humanidades digitais, os bens comuns digitais de
+                                conhecimento e as zonas de contato que eles criam são menos "grandes
+                                tendas" ou espaços delimitados a serem cercados (ou levantados, por
+                                assim dizer) do que redes sociais distribuídas, deliberadamente
+                                porosas e enfaticamente sociais; os bens comuns digitais
+                                frequentemente funcionam como uma ilha de dados entre — e
+                                intencionalmente conectada a — muitas outras. Além disso, os bens
+                                comuns de conhecimento em geral também lembram a zona de intercâmbio
+                                de Svensson no sentido de que são, antes de tudo, locais de troca
+                                intelectual e, muitas vezes, linguísticos. mas sim um complexo de
+                                pesquisadores e comunidades acadêmicas ativas por meio de linhas
+                                disciplinares, institucionais, nacionais e linguísticas.</note> Ver
+                            as humanidades digitais nesses termos não-estruturados e inclusivos, em
+                            oposição a um campo unificado, promove zonas de contato que conectam
+                            diferentes línguas e tradições de pesquisa, ao mesmo tempo em que
+                            mostram como elas se complementam ou contrastam entre si. No entanto,
+                            esse trabalho tem sido mais voltado para a realização de pesquisas
+                            multilíngues do que para a construção de infraestrutura.</p>
+                        <p>As infraestruturas de pesquisa são importantes para as humanidades
+                            digitais multilíngues, pois vêm sendo cada vez mais criadas e utilizadas
+                            para acessar, analisar e visualizar dados culturais, e seu
+                            desenvolvimento é orientado pelo engajamento com determinados valores
+                            que estruturam e restringem a forma dos argumentos produzidos a partir
+                            delas (guldi, 2020). Guldi menciona dois princípios que orientam os
+                            valores da construção de infraestruturas: bibliográfico (constituído por
+                            valores como transparência, interoperabilidade e pluralidade de desejos
+                            humanísticos) e crítico (constituído pelos valores de propriedade
+                            comunitária e a crença de que a democratização do acesso à informação
+                            gera uma democracia melhor). Um valor que poderia ser adicionado à lista
+                            de Guldi é o multilinguismo para fomentar conexões entre públicos
+                            diversos, como exemplificado por Scielo, AfricArXiv, <foreign
+                                xml:lang="en">The Programming Historian</foreign> e a Rede
+                            Multilíngue de DH.</p>
+                        <p>Embora apoiar o multilinguismo exija financiamento, também pode ser
+                            sustentado pela comunidade acadêmica quando é priorizado como um valor.
+                            Por exemplo, o Open Journal Systems (OJS), um <foreign xml:lang="en"
+                                >software</foreign> e infraestrutura que apoia milhares de
+                            periódicos de acesso aberto, possui traduções colaborativas de sua
+                            interface e documentação em várias línguas. O OJS é um exemplo de
+                            infraestrutura multilíngue que apoia outros projetos multilíngues, já
+                            que periódicos usam esse <foreign xml:lang="en">software</foreign> para
+                            publicar em 60 idiomas (khanna, 2022).</p>
+                        <p>O multilinguismo é um valor importante para a infraestrutura porque leva
+                            a uma maior equidade para os pesquisadores, maior diversidade
+                            epistemológica e acesso mais amplo ao conhecimento pela sociedade
+                            (bowker, 2025). Consequentemente, o multilinguismo deve ser uma
+                            prioridade — especialmente para infraestruturas de acesso aberto; o
+                            custo não é a única barreira de acesso ao conhecimento. A fluência na
+                            língua inglesa também pode ser uma barreira que exclui pesquisadores
+                            não-anglófonos de acessar e compartilhar conhecimento de forma
+                            aberta.</p>
                     </div>
+                    <div>
+                        <head>Bens Comuns Multilíngues de Conhecimento</head>
+                        <p>Uma forma de infraestrutura de acesso aberto atualmente em desenvolvimento e utilizada pelas comunidades de humanidades digitais são os bens comuns digitais de conhecimento, espaços <foreign xml:lang="en">online</foreign> que consideram o conhecimento como um recurso complexo, global e compartilhado (hess, 2006).<note> Uma discussão mais detalhada sobre os bens comuns de conhecimento está fora do escopo deste artigo. Para mais informações sobre a história, os fundamentos teóricos e a evolução digital dos bens comuns de conhecimento, consulte, por exemplo, (winter, 2020) (jensen, 2022; (jensen, 2023).</note> Essa perspectiva inspira projetos para construir bens comuns digitais de conhecimento nas humanidades que proporcionam acesso online equitativo a dados, informações, cultura e conhecimento (rosnay, 2020). Iniciativas como Wikipedia, Wikimedia Commons, Creative Commons e Knowledge Commons (anteriormente chamado Humanities Commons) têm sido usadas nas humanidades digitais para compartilhar abertamente a pesquisa acadêmica. Esses projetos têm objetivos de oferecer “acesso gratuito à soma de todo conhecimento humano” (wikipedia, 2025) ou cultivar “espaços abertos para que todos possamos conectar, criar, compartilhar e experimentar [...] para transformar os sistemas de conhecimento globais” (knowledge-commons, 2024).</p>
+                        <p>Essas aspirações, embora notáveis, podem ocultar barreiras de entrada: fluência na língua inglesa ou, na ausência desta, familiaridade e acesso fácil a ferramentas de tradução. Por exemplo, a versão em inglês da Wikipedia possui mais de 7 milhões de artigos, mais do que o dobro do número de artigos na versão em alemão, a segunda maior Wikipedia em número de artigos, com cerca de 3 milhões. Esse desequilíbrio impede que falantes não-anglófonos acessem partes do conjunto de conhecimentos humanos disponíveis na Wikipedia. Ainda assim, a interface multilíngue e o conteúdo da Wikipedia continuam necessários, porque cerca de 23% dos artigos de cada versão da Wikipedia estão especificamente relacionados ao contexto cultural dessa língua e nem sempre estão disponíveis em outros idiomas. Portanto, interfaces multilíngues incentivam a participação online local, contextualizada e em idiomas diferentes do inglês.</p>
+                        <p>Se os bens comuns digitais de conhecimento não oferecerem suporte a múltiplas línguas, então há uma barreira maior para compartilhar conhecimento sobre os contextos locais de cada idioma. Portanto, a língua deve estar no centro das discussões sobre como redistribuir o poder e a autoridade nos sistemas globais de produção de conhecimento (pawlicka-deger, 2021), caso contrário, os bens comuns digitais de conhecimento e a infraestrutura que os apoia correm o risco de democratizar apenas informações em inglês e de dispensar o papel do idioma na produção de conhecimento, já que privilegiar o inglês também pode privilegiar pontos de vista e sistemas de conhecimento ocidentais. (arbuckle, 2024) (bowker, 2025).</p>
+                        <p>Além de fornecer acesso <foreign xml:lang="en">online</foreign> à cultura ou à informação, os bens comuns digitais de conhecimento também devem refletir sobre as línguas que os constituem, especialmente se buscam transformar os sistemas de conhecimento globais, considerando que o uso do inglês em publicações acadêmicas diminuiu de 93,86% dos documentos acadêmicos em 1990 para 85,51% em 2023 (pradier, 2025). Enquanto a maior parte dos documentos está em inglês, as humanidades e ciências sociais demonstram o maior grau de abertura ao multilinguismo, uma vez que 40% dos periódicos nesse campo são multilíngues ou publicam em línguas diferentes do inglês (pradier, 2025). Além disso, cerca de metade dos pesquisadores da área publicam em dois ou mais idiomas (kulczycki, 2020).</p>
+                        <p>Nesse contexto, onde múltiplas línguas coexistem nas humanidades e ciências sociais, tratar o conhecimento como um recurso comum exige que as comunidades “se sentem e redefinam de maneira coletiva e dinâmica o que é (são) o(s) conhecimento(s) e como cada parte de conhecimento pode ser representado digitalmente” (fiormonte, 2016, p. 452, tradução nossa) — inclusive considerando as línguas necessárias para representá-los. Portanto, a infraestrutura que apoia a publicação acadêmica nas humanidades e ciências sociais, sobretudo os bens comuns de conhecimento, requer suporte multilíngue como um dos valores de seu <foreign xml:lang="en">design</foreign>.</p>
+                    </div>
+
                 </body>
             </text>
 
