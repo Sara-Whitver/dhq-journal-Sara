@@ -32,9 +32,9 @@
                 </dhq:authorInfo>
                 <dhq:authorInfo>
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
-                    <dhq:author_name>Graham <dhq:family>fJensen</dhq:family></dhq:author_name>
+                    <dhq:author_name>Graham <dhq:family>Jensen</dhq:family></dhq:author_name>
                     <idno type="ORCID">https://orcid.org/0000-0001-8160-7792</idno>
-                    <dhq:affiliation>University of Victorya</dhq:affiliation>
+                    <dhq:affiliation>University of Victoria</dhq:affiliation>
                     <email>ghjensen@uvic.ca</email>
                     <dhq:bio>
                         <p>Graham Jensen is a Research Officer for the Digital Research Alliance of
@@ -179,7 +179,7 @@
                             into four languages: French, Spanish, Bangla, and Portuguese.</p>
                     </dhq:abstract>
                     <dhq:teaser>
-                        <p>PLACEHOLDER</p>
+                        <p>Drawing from the debates on multilingual DH and scholarly publishing, we argue that any digital research infrastructure purporting to support knowledge diversity across disciplinary and national contexts must actively work to provide tools to facilitate, publish, and promote research in languages other than English. To show how multilingualism can guide infrastructure development and foster connections with diverse audiences, we describe the translation process of the interface of a research infrastructure, the Humanities and Social Sciences Commons, into four languages.</p>
                     </dhq:teaser>
                 </front>
                 <body>
@@ -258,7 +258,7 @@
                             Open Access Journals and OpenAlex are available only in English.<note> A
                                 recent study of OpenAlex, for instance, points to this platform’s
                                 potential to improve linguistic diversity, both in terms of research
-                                and the metadata used to describe it <ptr target="#cespedes_2024"
+                                and the metadata used to describe it <ptr target="#cespedes_2025"
                                 />.</note> This focus on English at the expense of other languages
                             may be completely unintentional or connected to the very real
                             limitations that open infrastructure initiatives often face, including
@@ -471,7 +471,7 @@
                         <p>In this section, we discuss our research on — and development of — research infrastructure to support language diversity and community building across linguistic, cultural, and national contexts through the Canadian Humanities and Social Sciences Commons <ptr target="#jensen_2024"/>. Led by the Implementing New Knowledge Environments (INKE) Partnership and coordinated through the Electronic Textual Cultures Lab (ETCL) at the University of Victoria, this project is an in-development, not-for-profit hub for open scholarship in Canada and beyond.</p>
                         <p>The site is already available in English, French, Spanish, Bangla, and Portuguese (listed here in the order in which they were translated). We started with these languages because our team and research collaborators are fluent in them, but also because they are some of the languages with the highest number of speakers and research activity in the humanities and social sciences <ptr target="#pradier_2025"/>. As part of this translation work, we interpret multilingualism as an infrastructural as well as a research imperative. This imperative assumes that the larger knowledge commons is a multilingual space that must engage with the infrastructural and social issues that prevent ethical, caring, and diverse ways of creating and sharing knowledge within that space.</p>
                         <p>Translating the interface of the HSS Commons makes the site more accessible and useful for anyone who communicates and carries out research primarily in non-English languages. This work aligns with the emphasis the HSS Commons places on connection and open, social scholarship, which allows us not only to address questions of reconfiguring how digital knowledge is represented globally <ptr target="#pawlicka-deger_2021"/>, but also to explore responses directly, using the HSS Commons research prototype as a real-life example of a digital commons infrastructure. We are very grateful to the research partners who took on this challenge with us, translating the site into French (Olga Ziminova, University of Victoria), Spanish (Alan Colín Arce, University of Victoria), Bangla (Sajib Ghosh, University of Victoria), and Portuguese (Bernardo Bueno, Elena Savi Frainer, Carina Corá, Franco Guglielmoni, Lorenzo Bueno, and Leonardo Colato, Pontifical Catholic University of Rio Grande do Sul, Brazil) — as well as those currently working with us to translate the site into additional languages.</p>
-                        <p>various files to be translated, as well as some guidelines on how to follow the translation formatting. Some of the files correspond to <title rend="quotes">Articles,</title> that is, pages the HSS Commons team has authored and which can be edited using a graphical Content Management System editor in the site’s backend (e.g., <title rend="quotes">Who We Are,</title> <title rend="quotes">Partners,</title> <title rend="quotes">Terms of Use</title>). Another, larger set of files comprises .ini files, which contain key-value pairs made up of a key or variable name and a text string that is displayed on the website every time its corresponding variable is invoked in the HSS Commons codebase (freely available at <ref target="https://github.com/etcluvic/hsscommons">https://github.com/etcluvic/hsscommons</ref>). The following is an example of a variable and how it was translated in different languages: <eg lang="code-general">COM_ANSWERS="Questions and Answers"</eg> The translation for the different languages of the site is: <eg lang="code-general">COM_ANSWERS="Questions et réponses" [French]
+                        <p>The translation process begins with the HSS Commons team sharing with various files to be translated with our collaborator. Some of the files correspond to <title rend="quotes">Articles,</title> that is, pages the HSS Commons team has authored and which can be edited using a graphical Content Management System editor in the site’s backend (e.g., <title rend="quotes">Who We Are,</title> <title rend="quotes">Partners,</title> <title rend="quotes">Terms of Use</title>). Another, larger set of files comprises .ini files, which contain key-value pairs made up of a key or variable name and a text string that is displayed on the website every time its corresponding variable is invoked in the HSS Commons codebase (freely available at <ref target="https://github.com/etcluvic/hsscommons">https://github.com/etcluvic/hsscommons</ref>). The following is an example of a variable and how it was translated in different languages: <eg lang="code-general">COM_ANSWERS="Questions and Answers"</eg> The translation for the different languages of the site is: <eg lang="code-general">COM_ANSWERS="Questions et réponses" [French]
 COM_ANSWERS="Preguntas y respuestas" [Spanish]
 COM_ANSWERS="প্রশ্নোত্তর" [Bangla]
 COM_ANSWERS="Perguntas e Respostas" [Portuguese]</eg></p>
@@ -526,7 +526,7 @@ COM_ANSWERS="Perguntas e Respostas" [Portuguese]</eg></p>
                             español, bengalí y portugués.</p>
                     </dhq:abstract>
                     <dhq:teaser>
-                        <p>PLACEHOLDER</p>
+                        <p>Con base en los debates recientes en las humanidades digitales multilingües y la publicación académica, argumentamos que cualquier infraestructura de investigación digital que busque fomentar la diversidad de conocimientos en distintos contextos disciplinares y nacionales debe trabajar activamente para proporcionar herramientas que faciliten y promuevan la investigación y la publicación en idiomas distintos del inglés. Para mostrar cómo el multilingüismo puede guiar el desarrollo de infraestructuras y fomentar conexiones con audiencias diversas, en este artículo describimos el proceso de traducción de la interfaz de una infraestructura de investigación, el Humanities and Social Sciences Commons, a cuatro idiomas.</p>
                     </dhq:teaser>
                 </front>
                 <body>
@@ -616,7 +616,7 @@ COM_ANSWERS="Perguntas e Respostas" [Portuguese]</eg></p>
                                 Un estudio reciente de OpenAlex, por ejemplo, señala el potencial de
                                 esta plataforma para mejorar la diversidad lingüística, tanto en
                                 términos de investigación como de los metadatos utilizados para
-                                describirla <ptr target="#cespedes_2024"/>.</note> Este énfasis en
+                                describirla <ptr target="#cespedes_2025"/>.</note> Este énfasis en
                             el inglés en detrimento de otros idiomas puede ser no intencional o
                             estar relacionado con las limitaciones que enfrentan a menudo las
                             iniciativas de infraestructura abierta, incluyendo limitaciones de
@@ -918,7 +918,9 @@ COM_ANSWERS="Perguntas e Respostas" [portugués]</eg></p>
                             português.</p>
                     </dhq:abstract>
                     <dhq:teaser>
-                        <p>PLACEHOLDER</p>
+                        <p>Com base nos debates sobre humanidades digitais multilíngues e publicações acadêmicas, argumentamos que qualquer infraestrutura digital de pesquisa que pretenda apoiar a diversidade de conhecimentos em contextos disciplinares e nacionais deve trabalhar ativamente para fornecer ferramentas que facilitem, publiquem e promovam pesquisa em línguas diferentes do inglês. Para mostrar como o multilinguismo pode orientar o desenvolvimento da infraestrutura e fomentar conexões com públicos diversificados, descrevemos o processo de tradução da interface de uma infraestrutura de pesquisa, o Humanities and Social Sciences Commons, para quatro idiomas.
+                           
+                        </p>
                     </dhq:teaser>
                 </front>
                 <body>
@@ -1006,7 +1008,7 @@ COM_ANSWERS="Perguntas e Respostas" [portugués]</eg></p>
                             disponíveis apenas em inglês.<note> Um estudo recente do OpenAlex, por
                                 exemplo, aponta para o potencial desta plataforma de melhorar a
                                 diversidade linguística, tanto em termos de pesquisa quanto nos
-                                metadados usados para descrevê-la <ptr target="#cespedes_2024"
+                                metadados usados para descrevê-la <ptr target="#cespedes_2025"
                                 />.</note> Esse foco no inglês em detrimento de outras línguas pode
                             ser não intencional ou estar ligado às limitações muito reais que as
                             iniciativas de infraestrutura aberta frequentemente enfrentam, incluindo
@@ -1324,7 +1326,7 @@ COM_ANSWERS="Perguntas e Respostas" [português]
                     112–122. Available at: <ref
                         target="https://doi.org/10.5206/cjils-rcsib.v48i1.22292"
                         >https://doi.org/10.5206/cjils-rcsib.v48i1.22292</ref>. </bibl>
-                <bibl xml:id="cespedes_2024" label="Céspedes 2024">PLACEHOLDER</bibl>
+                <bibl xml:id="cespedes_2025" label="Céspedes et al. 2025">Céspedes L, Kozlowski D, Pradier C, et al. (2025) <title rend="quotes">Evaluating the linguistic coverage of OpenAlex : An assessment of metadata accuracy and completeness</title>, <title rend="italic">Journal of the Association for Information Science and Technology</title> 76(6): 884–895. <ref target="https://doi.org/10.1002/asi.24979">https://doi.org/10.1002/asi.24979</ref></bibl>
                 <bibl xml:id="colin-arce_2025" label="Colin-Arce 2025" sortKey="Colin">Colin-Arce,
                     A. (2025) <title rend="quotes">Humanities and social sciences commons.
                         Herramienta para la colaboración y difusión de resultados de
@@ -1366,7 +1368,7 @@ COM_ANSWERS="Perguntas e Respostas" [português]
                         Computing</title>, 29(3), pp. 307–316. Available at: <ref
                         target="https://doi.org/10.1093/llc/fqu005"
                         >https://doi.org/10.1093/llc/fqu005</ref>. </bibl>
-                <bibl xml:id="ghorbaninejad_2023" label="Ghorbaninejad, Gibson, nd Wrisley 2023"
+                <bibl xml:id="ghorbaninejad_2023" label="Ghorbaninejad, Gibson, and Wrisley 2023"
                     >Ghorbaninejad, M., Gibson, N.P. and Wrisley, D.J. (2023) <title rend="quotes"
                         >Right-to-Left (RTL) Text: Digital humanists plus half a billion
                         users</title>, in M.K. Gold and L.F. Klein (eds) <title rend="italic"
@@ -1389,7 +1391,7 @@ COM_ANSWERS="Perguntas e Respostas" [português]
                         target="https://dhq.digitalhumanities.org/vol/14/3/000463/000463.html"
                         >https://dhq.digitalhumanities.org/vol/14/3/000463/000463.html</ref>
                 </bibl>
-                <bibl xml:id="hess_2006" label="Hess and Ostrom 006">Hess, C. and Ostrom, E. (2006)
+                <bibl xml:id="hess_2006" label="Hess and Ostrom 2006">Hess, C. and Ostrom, E. (2006)
                         <title rend="quotes">Introduction: An overview of the knowledge
                         commons</title>, in <title rend="italic">Understanding Knowledge as a
                         Commons: From Theory to Practice</title>. The MIT Press, pp. 3–26. Available
@@ -1506,7 +1508,7 @@ COM_ANSWERS="Perguntas e Respostas" [português]
                         rend="italic">Internet Policy Review</title>, 9(4). Available at: <ref
                         target="https://doi.org/10.14763/2020.4.1530"
                         >https://doi.org/10.14763/2020.4.1530</ref>. </bibl>
-                <bibl xml:id="siversten_2018" label="Siversten_2018">Siversten, G. (2018) <title
+                <bibl xml:id="siversten_2018" label="Siversten 2018">Siversten, G. (2018) <title
                         rend="quotes">Balanced multilingualism in science</title>, <title
                         rend="italic">BiD: textos universitaris de biblioteconomia i
                         documentació</title> [Preprint], (40). Available at: <ref
