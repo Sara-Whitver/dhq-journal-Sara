@@ -155,7 +155,7 @@
             <idno type="DHQarticle-id">000808</idno>
             <idno type="volume">019</idno>
             <idno type="issue">4</idno>
-            <date>14 Novemeber 2025</date>
+            <date when="2025-11-14">14 Novemeber 2025</date>
             <dhq:articleType>article</dhq:articleType>
             <availability status="CC-BY-ND"><!--If using a different license from the default, choose one of the following:
                   CC-BY-ND (DHQ default):        
