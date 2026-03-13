@@ -50,7 +50,6 @@
 			
 			<!-- ENCODING IN PROGRESS & INTERNAL PREVIEW -->
 			<list id="articles">
-				<item id="000850"/><!-- Colin-Arce et al. OJS 2211 Ready for Preview 20.1 -->
 				<item id="000831"/><!-- Bandara et al. OJS 2156 (Article) Meg encoded, with author for review -->
 				<item id="000851"/><!-- Hongisto OJS 1872 (article) Meg encoding, started -->
 				<item id="000857"/> <!-- Fagin Davis & Layfield (article) Meg encoding, not started -->
@@ -170,6 +169,7 @@
 			<item id="000838"/><!-- Grallert et al. OJS 2062 (Article) Preview 27 February 2026 -->
 			<item id="000855"/><!-- Schnitzler et al. OJS 1842 (article) Preview 27 February 2026 -->
 			<item id="000854"/><!-- Chang OJS 2139 (article) Preview 27 February 2026 -->
+			<item id="000850"/><!-- Colin-Arce et al. OJS 2211 Preview 13 March 2026 -->
 		</list>
 		
 		<list id="case_studies">
