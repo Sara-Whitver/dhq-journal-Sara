@@ -12,13 +12,24 @@
             <title type="article" xml:lang="en">Mapping Public Housing in Literature</title>
             <!--Add a <title> with appropriate @xml:lang for articles in languages other than English-->
             <dhq:authorInfo><!--Include a separate <dhq:authorInfo> element for each author-->
-               <dhq:author_name>first name(s) <dhq:family>family name</dhq:family>
+               <dhq:author_name>Crystal <dhq:family>Rudds</dhq:family>
                </dhq:author_name>
-               <idno type="ORCID"><!--if the author has an ORCID ID, include the full URI, e.g. https://orcid.org/0000-0000-0000-0000--></idno>
-               <dhq:affiliation/>
+               <idno type="ORCID">https://orcid.org/0000-0003-2430-7317</idno>
+               <dhq:affiliation>University of Utah</dhq:affiliation>
+               <email>crystal.rudds@utah.edu</email>
+               <dhq:bio>
+                  <p>Crystal Rudds is an assistant professor of African American literature and culture in the Department of English at the University of Utah.  She is the author of “Displaced Bodies and Governmentality: Lessons from the CHA Website," "On Perspective and Value: Black Urbanism, Black Interiors, and Public Housing Fiction," and served as assistant editor for High Rise Stories: Voices from Chicago Public Housing published in 2013.</p>
+               </dhq:bio>
+            </dhq:authorInfo>
+            
+            <dhq:authorInfo><!--Include a separate <dhq:authorInfo> element for each author-->
+               <dhq:author_name>Theadora <dhq:family>Soter</dhq:family>
+               </dhq:author_name>
+               <idno type="ORCID">https://orcid.org/0009-0006-8607-2233</idno>
+               <dhq:affiliation>University of Utah, Marriott Library</dhq:affiliation>
                <email/>
                <dhq:bio>
-                  <p/>
+                  <p>Theadora Soter is assistant curator of the Rare Books Collection in the University of Utah Marriott Library and currently completing her LIS Masters through the University of Illinois. Theadora worked as the undergraduate research assistant who built the first version of the Books, Maps, and Homeplace StoryMap and provided expertise on metadata schemes.</p>
                </dhq:bio>
             </dhq:authorInfo>
          </titleStmt>
@@ -87,7 +98,7 @@
             <p/>
          </dhq:abstract>
          <dhq:teaser><!--Include a brief teaser, no more than a phrase or a single sentence-->
-            <p/>
+            <p>"Mapping Public Housing in Literature" describes the participatory research process of building an ArcGIS StoryMap showcasing creative works set in public housing. 100 titles and counting, this geo-literary intervention aims to connect residents to stories told about them and to influence broader research on public housing as a space.</p>
          </dhq:teaser>
       </front>
       <body>
@@ -393,20 +404,20 @@
             
             <bibl xml:id="hawthorne2019" label="Hawthorne 2019">Hawthorne, C. (2019) ‘Black Matters are Spatial matters: Black Geographies for the Twenty-First Century’, Geography Compass, 13(7), e12468. Available at: https://doi.org/10.1111/gec3.12468.</bibl>
             
-            <bibl>Hillier, A.E. (2003) ‘Redlining and the Home Owners’ Loan Corporation’, Journal of Urban History, 29(4), pp. 394–420.</bibl>
+            <bibl xml:id="hillier2003" label="Hillier 2003">Hillier, A.E. (2003) <title rend="quotes">Redlining and the home owners’ loan corporation</title>, <title rend="italic">Journal of Urban History</title>, 29(4), pp. 394–420.</bibl>
             
-            <bibl>Hirsch, A.R. (2021). Making the Second Ghetto: Race and Housing in Chicago, 1940-1960. Enlarged ed. Chicago: University of Chicago Press.</bibl>
+            <bibl xml:id="hirsch2021" label="Hirsch 2021">Hirsch, A.R. (2021) <title rend="italic">Making the second ghetto: Race and housing in Chicago, 1940-1960</title>. Enlarged ed. Chicago: University of Chicago Press.</bibl>
             
-            <bibl>hooks, bell (2015) Yearning: Race, Gender, and  Cultural Politics. 2nd edn. (Psychology Revivals). New York ; Abingdon, Oxon : Routledge.</bibl>
+            <bibl xml:id="hooks2015" label="hooks 2015">hooks, bell (2015) <title rend="italic">Yearning: Race, gender, and  cultural Politics</title>. 2nd edn. (Psychology Revivals). New York; Abingdon, Oxon: Routledge.</bibl>
             
-            <bibl>Hunter, M.A., Pattillo, M., Robinson, Z.F. and Taylor, K.-Y. (2016). ‘Black Placemaking: Celebration, Play, and Poetry’, Theory, Culture &amp; Society, 33(7-8), pp. 31-56.</bibl>
+            <bibl xml:id="hunter_etal2016" label="Hunter et al. 2016">Hunter, M.A., Pattillo, M., Robinson, Z.F. and Taylor, K.-Y. (2016) <title rend="quotes">Black placemaking: Celebration, play, and poetry</title>, Theory, Culture &amp; Society, 33(7-8), pp. 31-56.</bibl>
             
-            <bibl>Hutton, N.S., McLeod, G., Allen, T.R. and Davis, C. (2022). ‘Participatory Mapping to Address Neighborhood Level Data Deficiencies for Food Security Assessment in Southeastern Virginia, USA’, International Journal of Health Geographics, Springer.</bibl>
+            <bibl xml:id="hutton_etal2022" label="Hutton et al. 2022">Hutton, N.S., McLeod, G., Allen, T.R. and Davis, C. (2022) <title rend="quotes">Participatory mapping to address neighborhood level data deficiencies for food security assessment in southeastern Virginia, USA</title>, <title rend="italic">International Journal of Health Geographics</title>, Springer.</bibl>
             
-            <bibl>Johnson, J.M. (2018) ‘Markup Bodies: Black [Life] Studies and Slavery [Death] Studies at the Digital Crossroads’, Social text, 36(4), pp. 57–79.
+            <bibl xml:id="johnson2018" label="Johnson 2018">Johnson, J.M. (2018) <title rend="quotes">Markup bodies: Black [life] studies and slavery [death] studies at the digital crossroads</title>, <title rend="italic">Social text</title>, 36(4), pp. 57–79.
             </bibl>
             
-            <bibl>Kelley, E. (2021) ‘"Follow the Tree Flowers": Fugitive Mapping inBeloved’, Antipode, 53(1), pp. 181–199.</bibl>
+            <bibl xml:id="kelley2021" label="Kelley 2021">Kelley, E. (2021) ‘"Follow the Tree Flowers": Fugitive Mapping inBeloved’, Antipode, 53(1), pp. 181–199.</bibl>
             
             <bibl>Kemp, C. (2024). Interviewed by Crystal S. Rudds, 1 October.</bibl>
             
