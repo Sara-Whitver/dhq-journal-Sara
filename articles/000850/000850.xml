@@ -160,7 +160,7 @@
 
             <!-- Original language -->
 
-            <text xml:lang="en" type="original" resp="-- fill in --">
+            <text xml:lang="en" type="original" resp="#alan-colin-arce #brittany-amell #ray-siemens #graham-jensen">
                 <!-- @resp for the original article is a pointer to xml:id of <dhq:authorInfo>, e.g. "#john_doe" -->
                 <front>
                     <dhq:abstract>
@@ -503,7 +503,7 @@ COM_ANSWERS="Perguntas e Respostas" [Portuguese]</eg></p>
 
             <!-- Translated language Spanish -->
 
-            <text xml:lang="es" type="translation" resp="!-- fill in --">
+            <text xml:lang="es" type="translation" resp="#alan-colin-arce">
                 <!-- Use "translation_stub" if only the abstract and possibly a short summary is translated. Use "translation" if the entire article has been translated. -->
                 <!-- @resp for the translation is a pointer to xml:id of <dhq:translatorInfo> -->
                 <front>
@@ -896,7 +896,7 @@ COM_ANSWERS="Perguntas e Respostas" [portugués]</eg></p>
 
             <!-- Translated language Portuguese -->
 
-            <text xml:lang="pt" type="translation" resp="!-- fill in --">
+            <text xml:lang="pt" type="translation" resp="alan-colin-arce">
                 <!-- Use "translation_stub" if only the abstract and possibly a short summary is translated. Use "translation" if the entire article has been translated. -->
                 <!-- @resp for the translation is a pointer to xml:id of <dhq:translatorInfo> -->
                 <front>
