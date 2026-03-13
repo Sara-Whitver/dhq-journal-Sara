@@ -15,7 +15,7 @@
                 <title type="article" xml:lang="es">El multilingüismo como imperativo en la infraestructura digital: Diversidad lingüística en los bienes comunes de conocimiento</title>
                 <title type="article" xml:lang="pt">Multilinguismo como Imperativo Infraestrutural: Diversidade Linguística em Bens Comuns Digitais de Conhecimento</title>
                 <!-- Add a <title> with appropriate @xml:lang for articles in languages other than English -->
-                <dhq:authorInfo>
+                <dhq:authorInfo xml:id="alan-colin-arce">
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
                     <dhq:author_name>Alan <dhq:family>Colin-Arce</dhq:family></dhq:author_name>
                     <idno type="ORCID">https://orcid.org/0000-0002-0437-7193</idno>
@@ -30,7 +30,7 @@
                             archives.</p>
                     </dhq:bio>
                 </dhq:authorInfo>
-                <dhq:authorInfo>
+                <dhq:authorInfo xml:id="graham-jensen">
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
                     <dhq:author_name>Graham <dhq:family>Jensen</dhq:family></dhq:author_name>
                     <idno type="ORCID">https://orcid.org/0000-0001-8160-7792</idno>
@@ -47,7 +47,7 @@
                             community-building.</p>
                     </dhq:bio>
                 </dhq:authorInfo>
-                <dhq:authorInfo>
+                <dhq:authorInfo xml:id="brittany-amell">
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
                     <dhq:author_name>Brittany <dhq:family>Amell</dhq:family></dhq:author_name>
                     <idno type="ORCID">https://orcid.org/0000-0002-3892-5346</idno>
@@ -60,7 +60,7 @@
                             Electronic Textual Cultures Lab (ETCL).</p>
                     </dhq:bio>
                 </dhq:authorInfo>
-                <dhq:authorInfo>
+                <dhq:authorInfo xml:id="ray-siemens">
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
                     <dhq:author_name>Ray <dhq:family>Siemens</dhq:family></dhq:author_name>
                     <idno type="ORCID">https://orcid.org/0000-0002-9599-8795</idno>
@@ -160,7 +160,7 @@
 
             <!-- Original language -->
 
-            <text xml:lang="en" type="original" resp="-- fill in --">
+            <text xml:lang="en" type="original" resp="#alan-colin-arce #brittany-amell #ray-siemens #graham-jensen">
                 <!-- @resp for the original article is a pointer to xml:id of <dhq:authorInfo>, e.g. "#john_doe" -->
                 <front>
                     <dhq:abstract>
@@ -503,7 +503,7 @@ COM_ANSWERS="Perguntas e Respostas" [Portuguese]</eg></p>
 
             <!-- Translated language Spanish -->
 
-            <text xml:lang="es" type="translation" resp="!-- fill in --">
+            <text xml:lang="es" type="translation" resp="#alan-colin-arce">
                 <!-- Use "translation_stub" if only the abstract and possibly a short summary is translated. Use "translation" if the entire article has been translated. -->
                 <!-- @resp for the translation is a pointer to xml:id of <dhq:translatorInfo> -->
                 <front>
@@ -896,7 +896,7 @@ COM_ANSWERS="Perguntas e Respostas" [portugués]</eg></p>
 
             <!-- Translated language Portuguese -->
 
-            <text xml:lang="pt" type="translation" resp="!-- fill in --">
+            <text xml:lang="pt" type="translation" resp="alan-colin-arce">
                 <!-- Use "translation_stub" if only the abstract and possibly a short summary is translated. Use "translation" if the entire article has been translated. -->
                 <!-- @resp for the translation is a pointer to xml:id of <dhq:translatorInfo> -->
                 <front>
