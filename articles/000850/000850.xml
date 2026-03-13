@@ -121,6 +121,8 @@
         <profileDesc>
             <langUsage>
                 <language ident="en" extent="original"/>
+                <language ident="es" extent="translation"/>
+                <language ident="pt" extent="translation"/>
                 <!-- add <language> with appropriate @ident for any additional languages -->
             </langUsage>
             <textClass>
