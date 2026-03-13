@@ -18,7 +18,7 @@
                <dhq:affiliation>University of Utah</dhq:affiliation>
                <email>crystal.rudds@utah.edu</email>
                <dhq:bio>
-                  <p>Crystal Rudds is an assistant professor of African American literature and culture in the Department of English at the University of Utah.  She is the author of “Displaced Bodies and Governmentality: Lessons from the CHA Website," "On Perspective and Value: Black Urbanism, Black Interiors, and Public Housing Fiction," and served as assistant editor for High Rise Stories: Voices from Chicago Public Housing published in 2013.</p>
+                  <p>Crystal Rudds is an assistant professor of African American literature and culture in the Department of English at the University of Utah.  She is the author of “Displaced Bodies and Governmentality: Lessons from the CHA Website," "On Perspective and Value: Black Urbanism, Black Interiors, and Public Housing Fiction," and served as assistant editor for <title rend="italic">High Rise Stories: Voices from Chicago Public Housing</title> published in 2013.</p>
                </dhq:bio>
             </dhq:authorInfo>
             
@@ -159,14 +159,14 @@
             <!-- 1 -->
          <figure>
             <head>Aerial view of Robert Taylor Homes in April of 1998.</head>
-            <graphic url=""></graphic>
+            <graphic url="resources/images/figure%201.jpg"></graphic>
             <figDesc></figDesc>
          </figure>
          
          <!-- 2 -->
             <figure>
                <head> Aerial view of Robert Taylor Homes in April of 2024.</head>
-               <graphic url=""></graphic>
+               <graphic url="resources/images/figure%202.jpg"></graphic>
                <figDesc></figDesc>
          </figure>
             
@@ -181,14 +181,14 @@
             <!-- 3 -->
          <figure>
             <head>Book Cover and Correlating Map Point.</head>
-            <graphic url=""></graphic>
+            <graphic url="resources/images/figure%203.png"></graphic>
             <figDesc></figDesc>
          </figure>
          
          <!-- 4 -->
             <figure>
                <head>Represented Genres.</head>
-            <graphic url=""/>
+            <graphic url="resources/images/figure%204.jpg"/>
                <figDesc></figDesc>
          </figure>
             
@@ -207,14 +207,14 @@
          <!-- 5 -->
             <figure>
                <head>MARC Record for James McBride’s <hi rend="italic">Deacon King Kong</hi></head>
-               <graphic url=""></graphic>
+               <graphic url="resources/images/figure%205.png"></graphic>
                <figDesc></figDesc>
          </figure>
          
          <!-- 6 -->
             <figure>
                <head>MARC Record of <hi rend="italic">Desperate Hoodwives: An Urban Tale</hi></head>
-               <graphic url=""></graphic>
+               <graphic url="resources/images/figure%206.png"></graphic>
                <figDesc></figDesc>
          </figure>
          
