@@ -16,11 +16,11 @@
                     in the Digital Humanities and Object Orientations Everywhere</title>
                 <dhq:authorInfo>
                     <!-- Include a separate <dhq:authorInfo> element for each author -->
-                    <dhq:author_name>Jamie "Skye" <dhq:family>Bianco</dhq:family></dhq:author_name>
+                    <dhq:author_name>Jamie “Skye” <dhq:family>Bianco</dhq:family></dhq:author_name>
                     <dhq:affiliation>New York University</dhq:affiliation>
                     <email>jlb233@nyu.edu</email>
                     <dhq:bio>
-                        <p>Jamie "Skye" Bianco is a Clinical Assistant Professor of Media, Culture,
+                        <p>Jamie “Skye” Bianco is a Clinical Assistant Professor of Media, Culture,
                             and Communication at NYU.</p>
                     </dhq:bio>
                 </dhq:authorInfo>
