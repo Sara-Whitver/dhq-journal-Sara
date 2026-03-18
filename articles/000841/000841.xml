@@ -313,11 +313,11 @@
             
             <bibl xml:id="clammer2023" label="Clammer 2023">Clammer, P. (2023) <title rend="italic">Black crown: Henry Christophe, the Haitian Revolution and the Caribbean’s forgotten kingdom</title>. London: Hurst Publishers.</bibl>
             
-            <bibl>Clammer, P. (2012/2017) Haiti. Buckinghamshire: Bradt Travel Guides.</bibl>
+            <bibl xml:id="clammer" label="Clammer 2012/2017">Clammer, P. (2012/2017) <title rend="none">Haiti</title>. Buckinghamshire: Bradt Travel Guides.</bibl>
             
-            <bibl>Corlett Rivera, K., et al. (2021) “In Service of Pedagogy: A Colony in Crisis and the Digital Humanities Center,” in Anne McGrail, Angel David Nieves, and Siobhan Senier (eds.) People, Practice, Power: Digital Humanities outside the Center. Minneapolis and London: University of Minnesota Press, Part 2, Chapter 9. {Available at: https://dhdebates.gc.cuny.edu/read/people-practice-power/section/9aa033b8-a0f4-4a6e-971c-8b731dd9c1d3#ch09 (Accessed: 5 July 2024).}</bibl>
+            <bibl xml:id="corlettrivera2021" label="Corlett Rivera et. al 2021">Corlett Rivera, K., et al. (2021) <title rend="quotes">In service of pedagogy: A colony in crisis and the digital humanities center</title>, in Anne McGrail, Angel David Nieves, and Siobhan Senier (eds.) <title rend="italic">People, practice, power: Digital humanities outside the center</title>. Minneapolis and London: University of Minnesota Press, Part 2, Chapter 9. Available at: <ref target="https://dhdebates.gc.cuny.edu/read/people-practice-power/section/9aa033b8-a0f4-4a6e-971c-8b731dd9c1d3#ch09">https://dhdebates.gc.cuny.edu/read/people-practice-power/section/9aa033b8-a0f4-4a6e-971c-8b731dd9c1d3#ch09</ref>. Accessed: 5 July 2024.</bibl>
             
-            <bibl>Curci, S. (2008) “Mapping Haitian History: A Photo Essay,” The Journal of Haitian Studies, 14(2), pp. 120-129. {Available at: http://www.jstor.org/stable/41715192 (Accessed: 5 July 2024).}</bibl>
+            <bibl xml:id="curci2008" label="Curci 2008">Curci, S. (2008) <title rend="quotes">Mapping Haitian history: A photo essay</title>, <title rend="italic">The Journal of Haitian Studies</title>, 14(2), pp. 120-129. Available at: <ref target="http://www.jstor.org/stable/41715192">http://www.jstor.org/stable/41715192</ref>. Accessed: 5 July 2024.</bibl>
             
             <bibl>Curci, S. and Jones, C. “The Project,” Mapping the Haitian Revolution. Available at https://www.mappinghaitianrevolution.com/about (Accessed 7 August 2024).</bibl>
             
