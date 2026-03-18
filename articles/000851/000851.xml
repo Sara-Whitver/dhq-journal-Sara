@@ -20,7 +20,7 @@
                     <dhq:affiliation>University of Helsinki</dhq:affiliation>
                     <email>tuuli.hongisto@helsinki.fi</email>
                     <dhq:bio>
-                        <p>PLACEHOLDER</p>
+                        <p>Tuuli Hongisto is a researcher in literary studies at the University of Helsinki. Her doctoral dissertation (University of Helsinki, 2026) examined the different conceptualisations of authorship in computer-generated literature, and her areas of expertise include electronic literature, computer-generated literature, and authorship studies. </p>
                     </dhq:bio>
                 </dhq:authorInfo>
             </titleStmt>
@@ -80,11 +80,15 @@
                     <!-- Enter keywords below preceeded by a "#". Create a new <term> element for each -->
                     <term corresp="#elit"/>
                     <term corresp="#machine_learning"/>
+                    <term corresp="#cs"/>
                 </keywords>
                 <keywords scheme="#authorial_keywords">
                     <!-- Authors may include one or more keywords of their choice -->
                     <term>authorship</term>
                     <term>coauthorship</term>
+                    <term>story generation</term>
+                    <term>electronic literature</term>
+                    <term>digital literature</term>
                     <term>story generation</term>
                 </keywords>
                 <keywords scheme="#project_keywords">
@@ -107,11 +111,11 @@
         <front>
             <dhq:abstract>
                 <!-- Include a brief abstract of the article -->
-                <p>PLACEHOLDER</p>
+                <p>This article examines how authorship is approached in story generation research publications. Story generation research forms its own, distinctive context in which computer-generated literary texts are being produced. Through text analysis and comparisons to other forms of computer-generated literature, the article examines what kind of rhetoric is used when the authorship of computer-generated texts is described in this context, and how the roles of the programmers and the program are characterised. The findings suggest that the approach to authorship in story generation research is mainly technical, referring strictly to the production process of the text, and leaving out the meaning of authorship as responsibility and accountability of the work as an aesthetic whole. This technical view affects how human-computer relations are discussed in the research, as <soCalled>human-generated</soCalled> and <soCalled>computer-generated</soCalled> texts are contrasted with each other. Furthermore, this dichotomy of the human and the machine affects how the produced stories are evaluated. </p>
             </dhq:abstract>
             <dhq:teaser>
                 <!-- Include a brief teaser, no more than a phrase or a single sentence -->
-                <p>PLACEHOLDER</p>
+                <p>The article examines how the roles of humans and machines are described in relation to authorship in story generation research. The field forms its own distinct context, which seems to differ in its approach from other forms of computer-generated literature.</p>
             </dhq:teaser>
         </front>
         <body>
@@ -865,6 +869,11 @@
                     scope of electronic literature than others. Navigating the research output of
                     story generation research and its relations to electronic literature — and
                     literature more broadly — deserve close examination also in the future.</p>
+            </div>
+            <div>
+                <head>Funding Acknowledgement
+                </head>
+                <p>This research was funded by Emil Aaltonen Foundation (Emil Aaltosen Säätiö).</p>
             </div>
         </body>
         <back>
