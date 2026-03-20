@@ -26,11 +26,18 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2026-03-20" who="#sdb">
+        <list>
+          <item>Add <val>DOI</val> as a value of <gi>idno</gi></item>
+          <item>Add check that there is one and only one of each of
+          the four <gi>idno</gi>s inside <gi>publicationStmt</gi></item>
+        </list>
+      </change>
       <change when="2026-01-07" who="#sdb">
-	Remove constraint that requires a <att>who</att> on the
-	<val>gitHist</val> <gi>change</gi> element. I thought we
-	had already removed it (per request <persName ref="#jhf"/>)
-	before we merged a few days ago. Sigh.
+        Remove constraint that requires a <att>who</att> on the
+        <val>gitHist</val> <gi>change</gi> element. I thought we
+        had already removed it (per request <persName ref="#jhf"/>)
+        before we merged a few days ago. Sigh.
       </change>      
       <change when="2025-12-30" who="#sdb">
         Insist that there must be a <gi>change</gi> that points reader
@@ -1357,10 +1364,29 @@ email (should only have an email address)
             </sch:rule>
           </constraint>
         </constraintSpec>
+        <constraintSpec scheme="schematron" ident="publication_idnos" mode="add">
+          <constraint>
+            <sch:rule context="tei:publicationStmt">
+              <sch:assert test="count( tei:idno[ @type eq 'DHQarticle-id'] ) eq 1">
+                There should be one and only one "DHQarticle-id" &lt;idno> in the publication statement
+              </sch:assert>
+              <sch:assert test="count( tei:idno[ @type eq 'DOI'] ) eq 1">
+                There should be one and only one "DOI" &lt;idno> in the publication statement
+              </sch:assert>
+              <sch:assert test="count( tei:idno[ @type eq 'issue'] ) eq 1">
+                There should be one and only one "issue" &lt;idno> in the publication statement
+              </sch:assert>
+              <sch:assert test="count( tei:idno[ @type eq 'volume'] ) eq 1">
+                There should be one and only one "volume" &lt;idno> in the publication statement
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
         <attList>
           <attDef ident="type" mode="change">
             <valList type="closed">
               <valItem ident="DHQarticle-id"><desc>used for the DHQ article ID</desc></valItem>
+              <valItem ident="DOI"><desc>used for the assigned digital object identifier</desc></valItem>
               <valItem ident="volume"><desc>used for the volume number</desc></valItem>
               <valItem ident="issue"><desc>used for the issue number</desc></valItem>
               <valItem ident="ORCID"><desc>used for author ORCID IDs</desc></valItem>
