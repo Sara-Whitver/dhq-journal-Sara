@@ -112,7 +112,7 @@
         <front>
             <dhq:abstract>
                 <!-- Include a brief abstract of the article -->
-                <p>PLACEHOLDER</p>
+                <p>The Voynich Manuscript (VM) is a medieval manuscript likely written in the 15th century (Yale Univ., Beinecke Rare Book &amp; Manuscript Library MS 408).  The manuscript is written in an unknown language or code using an unidentified set of symbols that has yet to be made legible. Additionally, the codex contains many strange and fantastical images of plants, people, and cosmological/zodiac illustrations, the meaning of which are also unknown. One of the main research avenues into the VM is to examine its textual content to understand how it behaves relative to known texts; this can provide insight as to whether the mysterious writings contain decipherable text or not. In this paper, we explore the coherence and flow of the manuscript using Latent Semantic Analysis (LSA). LSA is a technique that may help ascertain whether the behavior of the text within the VM shows evidence of a coherent flow of topical content, by comparative analysis of text samples that are near each other, farther away from each other, at section breaks, or even page breaks. The advantage of this strategy is that LSA analysis can be undertaken without actually knowing the meaning of the text. We expect portions of text that are near to each other to have a relatively high similarity score, that is, to be potentially semantically related. We also expect that at anticipated topic breaks (pages or sections), the similarity score between adjacent text blocks would be smaller, as the breaks seem to represent a change in topic. Both of these patterns are observed in the control manuscript studied as proof-of-concept experiments. Patterns then observed in several sections of the VM suggest that there may be an overall coherence to the text.</p>
             </dhq:abstract>
             <dhq:teaser>
                 <!-- Include a brief teaser, no more than a phrase or a single sentence -->
@@ -128,7 +128,92 @@
         </body>
         <back>
             <listBibl>
-                <bibl/>
+                
+                <bibl xml:id="altszyler_2017" label="Altszyler et al. 2017">Altszyler, E. et al. (2017) <title
+                    rend="quotes">The interpretation of dream meaning: Resolving ambiguity using latent
+                    semantic analysis in small corpus of text</title>, <title rend="italic">Consciousness
+                        and Cognition</title>, 56, pp. 178–187.</bibl>
+                
+                <bibl xml:id="currier_1976" label="Currier 1976">Currier, P. (1976) <title rend="quotes">Some
+                    important new statistical findings</title>, in <title rend="italic">New Research on the
+                        Voynich Manuscript: Proceedings of a Seminar, 30 November 1976</title>, pp. 20–26
+                    (unpublished typescript). Available at: <ref
+                        target="https://media.defense.gov/2021/Jul/13/2002761428/-1/-1/0/PROCEEDINGS-OF-A-SEMINAR-30-NOVEMBER-1976.PDF"
+                        >https://media.defense.gov/2021/Jul/13/2002761428/-1/-1/0/PROCEEDINGS-OF-A-SEMINAR-30-NOVEMBER-1976.PDF</ref>.</bibl>
+                
+                <bibl xml:id="davis_2020" label="Davis 2020">Davis, L.F. (2020) <title rend="quotes">How many
+                    glyphs and how many scribes? Digital paleography and the Voynich manuscript</title>,
+                    <title rend="italic">Manuscript Studies: A Journal of the Schoenberg Institute for
+                        Manuscript Studies</title>, pp. 164–180.</bibl>
+                
+                <bibl xml:id="deerwester_1990" label="Deerwester et al. 1990">Deerwester, S. et al. (1990)
+                    <title rend="quotes">Indexing by latent semantic analysis</title>, <title rend="italic"
+                        >Journal of the American Society for Information Science</title>, pp. 391–407.</bibl>
+                
+                <bibl xml:id="dossantos_2015" label="Dos Santos and Favero 2015">Dos Santos, J.C.A. and
+                    Favero, E.L. (2015) <title rend="quotes">Practical use of a latent semantic analysis (LSA)
+                        model for automatic evaluation of written answers</title>, <title rend="italic">Journal
+                            of the Brazilian Computer Society</title>, 21, p. 21.</bibl>
+                
+                <bibl xml:id="foltz_1998" label="Foltz, Kintsch, and Landauer 1998">Foltz, P., Kintsch, W. and
+                    Landauer, T. (1998) <title rend="quotes">The measurement of textual coherence with latent
+                        semantic analysis</title>, <title rend="italic">Discourse Processes</title>, pp.
+                    285–307.</bibl>
+                
+                <bibl xml:id="landauer_1997" label="Landauer and Dumais 1997">Landauer, T. and Dumais, S.
+                    (1997) <title rend="quotes">A solution to Plato's problem: The latent semantic analysis
+                        theory of acquisition, induction, and representation of knowledge</title>, <title
+                            rend="italic">Psychological Review</title>, pp. 211–240.</bibl>
+                
+                <bibl xml:id="lindemann_2021" label="Lindemann and Bowern 2021">Lindemann, L. and Bowern, C.
+                    (2021) <title rend="quotes">Character entropy in modern and historical texts: Comparison
+                        metrics for an undeciphered manuscript</title>. arXiv:2010.14697v2.</bibl>
+                
+                <bibl xml:id="manly_1921" label="Manly 1921">Manly, J. (1921) <title rend="quotes">The most
+                    mysterious manuscript in the world</title>, <title rend="italic">Harper's
+                        Magazine</title>, pp. 186–197.</bibl>
+                
+                <bibl xml:id="mikolov_2013" label="Mikolov et al. 2013">Mikolov, T. et al. (2013) <title
+                    rend="quotes">Efficient estimation of word representations in vector space</title>.
+                    arXiv:1301.3781.</bibl>
+                
+                <bibl xml:id="pelling_2006" label="Pelling 2006">Pelling, N. (2006) <title rend="italic">The
+                    curse of the Voynich</title>. Surbiton: Compelling Press.</bibl>
+                
+                <bibl xml:id="reddy_2011" label="Reddy and Knight 2011">Reddy, S. and Knight, K. (2011) <title
+                    rend="quotes">What we know about the Voynich manuscript</title>, in <title
+                        rend="italic">Proceedings of the 5th ACL-HLT Workshop on Language Technology for
+                        Cultural Heritage, Social Sciences, and Humanities</title>, June 2011, pp. 78–86.
+                    Available at: <ref target="http://dl.acm.org/citation.cfm?id=2107647"
+                        >http://dl.acm.org/citation.cfm?id=2107647</ref>.</bibl>
+                
+                <bibl xml:id="sterneck_2021" label="Sterneck, Polish, and Bowern 2021">Sterneck, R., Polish, A.
+                    and Bowern, C. (2021) <title rend="quotes">Topic modeling in the Voynich
+                        manuscript</title>. arXiv:2107.02858.</bibl>
+                
+                <bibl xml:id="timm_2020" label="Timm and Schinner 2020" sortKey="Timma">Timm, T. and Schinner,
+                    A. (2020) <title rend="quotes">A possible generating algorithm of the Voynich
+                        manuscript</title>, <title rend="italic">Cryptologia</title>, pp. 1–19.</bibl>
+                
+                <bibl xml:id="timm_2023" label="Timm and Schinner 2023" sortKey="Timmb">Timm, T. and Schinner,
+                    A. (2023) <title rend="quotes">The Voynich manuscript: Discussion of text creation
+                        hypotheses</title>, <title rend="italic">Cryptologia</title>, 48(4), pp.
+                    305–322.</bibl>
+                
+                <bibl xml:id="vaswani_2017" label="Vaswani et al. 2017">Vaswani, A. et al. (2017) <title
+                    rend="quotes">Attention is all you need</title>, in <title rend="italic">31st
+                        Conference on Neural Information Processing Systems (NIPS 2017)</title>, Long Beach, CA,
+                    USA.</bibl>
+                
+                <bibl xml:id="zandbergen_2004" label="Zandbergen 2004–2025" sortKey="Zandbergena">Zandbergen,
+                    R. (2004–2025) <title rend="italic">The Voynich manuscript</title>. Available at: <ref
+                        target="https://www.voynich.nu/">https://www.voynich.nu/</ref> (Accessed: 12 February
+                    2025).</bibl>
+                
+                <bibl xml:id="zandbergen_nd" label="Zandbergen n.d." sortKey="Zandbergenb">Zandbergen, R.
+                    (n.d.) <title rend="quotes">IVTFF intermediate Voynich MS transliteration file format:
+                        File format 2.0</title>.</bibl>
+                
             </listBibl>
            
         </back>
