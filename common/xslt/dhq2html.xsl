@@ -42,6 +42,8 @@
     <xsl:param name="id" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type eq 'DHQarticle-id']!normalize-space(.)"/>
     <xsl:param name="cssFile"/>
     <xsl:param name="biblioData" select="'../../data/biblio-full.xml'"/>
+    <xsl:param name="doi" select="/*/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[ @type eq 'DOI']!normalize-space(.)"/>
+    <xsl:variable name="doiURL" select="escape-html-uri('https://doi.org/'||$doi )"/>
     <!-- The relative path from the webpage to the DHQ home directory. The path must not end with a 
       slash. This value is used by this and other stylesheets to construct links relative, if not 
       directly from the current page, then from the DHQ home directory. Because this stylesheet is used 
@@ -119,6 +121,7 @@
     <xsl:template match="dhq:caption"/>
 
     <xsl:template match="tei:publicationStmt">
+      <xsl:apply-templates select="./tei:idno[ @type eq 'DOI']"/>
       <xsl:apply-templates select=".//dhq:revisionNote"/>
     </xsl:template>
 
@@ -1937,6 +1940,10 @@
          [not(preceding-sibling::* | preceding-sibling::text()[normalize-space()]) or
           not(following-sibling::* | following-sibling::text()[normalize-space()])]"/>
 
+    <xsl:template match="dhq:idno[ @type eq 'DOI']">
+      <p>DOI: <a href="{$doiURL}"><xsl:sequence select="substring-after( $doi, 'doi:')"/></a></p>
+    </xsl:template>
+    
     <xsl:template match="dhq:revisionNote">
       <div class="revisionNote">
         <h2 style="font-size:90%;">Revision Note</h2>
