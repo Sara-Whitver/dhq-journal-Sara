@@ -1940,8 +1940,8 @@
          [not(preceding-sibling::* | preceding-sibling::text()[normalize-space()]) or
           not(following-sibling::* | following-sibling::text()[normalize-space()])]"/>
 
-    <xsl:template match="dhq:idno[ @type eq 'DOI']">
-      <p>DOI: <a href="{$doiURL}"><xsl:sequence select="substring-after( $doi, 'doi:')"/></a></p>
+    <xsl:template match="tei:idno[ @type eq 'DOI']">
+      <p>DOI: <a href="{$doiURL}"><xsl:sequence select="$doi"/></a></p>
     </xsl:template>
     
     <xsl:template match="dhq:revisionNote">
