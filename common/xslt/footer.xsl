@@ -89,10 +89,17 @@
         <xsl:otherwise><xsl:sequence select="'DHQ'"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
+    <!-- The DOI (digital object identifier) -->
+    <xsl:variable name="doi" select="/*/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type eq 'DOI']!normalize-space(.)"/>
+    <xsl:variable name="doiURL" select="('https://doi.org/'||substring-after( $doi, 'doi:') ) => escape-html-uri()"/>
     <div id="footer"> 
       <div style="float:left; max-width:70%;" xsl:expand-text="yes">
         URL: {$baseurl}{$latterurl}
-        <br/>
+	<xsl:if test="not( empty( $doi ) )">
+          <br/>
+	  DOI: <a href="{$doiURL}">{$doi}</a>
+	</xsl:if>
+	<br/>
         Comments:&#x20;
         <a href="mailto:dhqinfo@digitalhumanities.org" class="footer">dhqinfo@digitalhumanities.org</a>
         <br/>Published by:&#x20;
