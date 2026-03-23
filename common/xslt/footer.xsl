@@ -91,7 +91,7 @@
     </xsl:variable>
     <!-- The DOI (digital object identifier) -->
     <xsl:variable name="doi" select="/*/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type eq 'DOI']!normalize-space(.)"/>
-    <xsl:variable name="doiURL" select="('https://doi.org/'||substring-after( $doi, 'doi:') ) => escape-html-uri()"/>
+    <xsl:variable name="doiURL" select="escape-html-uri('https://doi.org/'||$doi )"/>
     <div id="footer"> 
       <div style="float:left; max-width:70%;" xsl:expand-text="yes">
         URL: {$baseurl}{$latterurl}

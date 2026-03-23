@@ -43,7 +43,7 @@
     <xsl:param name="cssFile"/>
     <xsl:param name="biblioData" select="'../../data/biblio-full.xml'"/>
     <xsl:param name="doi" select="/*/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[ @type eq 'DOI']!normalize-space(.)"/>
-    <xsl:variable name="doiURL" select="('https://doi.org/'||substring-after( $doi, 'doi:') ) => escape-html-uri()"/>
+    <xsl:variable name="doiURL" select="escape-html-uri('https://doi.org/'||$doi )"/>
     <!-- The relative path from the webpage to the DHQ home directory. The path must not end with a 
       slash. This value is used by this and other stylesheets to construct links relative, if not 
       directly from the current page, then from the DHQ home directory. Because this stylesheet is used 
