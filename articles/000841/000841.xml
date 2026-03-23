@@ -104,7 +104,7 @@
                
                The clipping conjures a fascinating picture of opulence, refinement and conspicuous consumption in Henry Christophe’s Kingdom of Hayti.
                
-               <note> The Kingdom of Hayti (1811-1820) was a short-lived exercise in monarchic sovereignty inaugurated by former Haitian revolutionary general Henry Christophe. Following the assassination of <name>Jean-Jacques Dessalines</name>, Haiti’s first independent head of state and later self-anointed emperor, in 1806, a schism emerged between the surviving political players who had contributed to his downfall. The territorial governance of independent Haiti was divided between a southern Republic of Hayti and a northern State of Hayti in 1807. Under the stewardship of Christophe, the northern State of Hayti became a Kingdom in 1811 and Christophe was crowned king in a coronation ceremony conducted by <name>Jean-Baptiste Joseph (Corneille) Brelle</name>, Grand Archbishop of Haiti. Christophe’s reign as a black monarch in the New World was short-lived, ending dramatically in October 1820 following a stroke, a political coup and his death by suicide. For more on the history of the Kingdom of Hayti, see Daut <ptr target="#daut2019"/> and <ptr target="#clammer2023"/>.</note>
+               <note> The Kingdom of Hayti (1811-1820) was a short-lived exercise in monarchic sovereignty inaugurated by former Haitian revolutionary general Henry Christophe. Following the assassination of <name>Jean-Jacques Dessalines</name>, Haiti’s first independent head of state and later self-anointed emperor, in 1806, a schism emerged between the surviving political players who had contributed to his downfall. The territorial governance of independent Haiti was divided between a southern Republic of Hayti and a northern State of Hayti in 1807. Under the stewardship of Christophe, the northern State of Hayti became a Kingdom in 1811 and Christophe was crowned king in a coronation ceremony conducted by <name>Jean-Baptiste Joseph (Corneille) Brelle</name>, Grand Archbishop of Haiti. Christophe’s reign as a black monarch in the New World was short-lived, ending dramatically in October 1820 following a stroke, a political coup and his death by suicide. For more on the history of the Kingdom of Hayti, see Daut <ptr target="#daut2019b"/> and <ptr target="#clammer2023"/>.</note>
                
                The dresses, made in sumptuous satin, “richly embroidered” in silver and gold thread with flowers of various descriptions and enhanced by various accoutrements including draperies, gold and silver fringe and frogs and tassels, were commissioned to be made for Queen-consort Marie-Louise Christophe and her daughters, the crown princesses Françoise-Améthiste and Anne-Athénaïre, by a fashionable English dressmaker in 1815. This fragment led me down a seemingly bottomless rabbit-hole on the life of Marie-Louise and other women who contributed, to varying degrees, to the project of Haitian independence, statehood and self-determination from colonial rule. Ultimately, it sowed the seeds for my larger research project on Haiti’s <hi rend="italic">fanm rebèl</hi> (a Haitian Kreyòl term translating to “rebel women”) and its incarnations as an open-access digital resource with multiple public heritage imprints undergirded by radical collaborations.</p>
             
@@ -123,7 +123,7 @@
                <!-- 1 -->
                <figure>
                   <head>Lubaina Himid, <hi rend="italic">Scenes from the Life of Toussaint L’Ouverture: 2</hi> (1987), watercolour and pencil on paper, 39.5 x 50 cm. Arts Council Collection, Southbank Centre, London © Lubaina Himid.</head>
-                  <graphic url="resources/images/image1.png"/>
+                  <graphic></graphic>
                   <figDesc>A diptych painting of a man sleeping on a cot with clothes on the floor and a map on a table with clothes on the floor.</figDesc>
                </figure>
               
@@ -319,59 +319,83 @@
             
             <bibl xml:id="curci2008" label="Curci 2008">Curci, S. (2008) <title rend="quotes">Mapping Haitian history: A photo essay</title>, <title rend="italic">The Journal of Haitian Studies</title>, 14(2), pp. 120-129. Available at: <ref target="http://www.jstor.org/stable/41715192">http://www.jstor.org/stable/41715192</ref>. Accessed: 5 July 2024.</bibl>
             
-            <bibl>Curci, S. and Jones, C. “The Project,” Mapping the Haitian Revolution. Available at https://www.mappinghaitianrevolution.com/about (Accessed 7 August 2024).</bibl>
+            <bibl xml:id="curci" label="Curci and Jones">Curci, S. and Jones, C. <title rend="quotes">The project</title>, <title rend="italic">Mapping the Haitian Revolution</title>. Available at: <ref target="https://www.mappinghaitianrevolution.com/about">https://www.mappinghaitianrevolution.com/about</ref>. Accessed 7 August 2024.</bibl>
             
-            <bibl>Daut, M. “About: La Gazette Royale d’Hayti,” La Gazette Royale d’Hayti. Available at https://lagazetteroyale.com/about/ (Accessed 3 July 2024).</bibl>
+            <bibl xml:id="dout" label="Daut">Daut, M. <title rend="quotes">About: La Gazette Royale d’Hayti</title>, <title rend="italic">La Gazette Royale d’Hayti</title>. Available at: <ref target="https://lagazetteroyale.com/about/">https://lagazetteroyale.com/about/</ref>. Accessed 3 July 2024.</bibl>
             
-            <bibl>Daut, M. (2019) “Haiti @ the Digital Crossroads: Archiving Black Sovereignty,” Archipelagos, 3. {Available at: https://archipelagosjournal.org/issue03/daut.html (Accessed: 5 July 2024).}</bibl>
+            <bibl xml:id="daut2019a" label="Daut 2019a">Daut, M. (2019a) <title rend="quotes">Haiti @ the digital crossroads: Archiving Black sovereignty</title>, <title rend="italic">Archipelagos</title>, 3. Available at: <ref target="https://archipelagosjournal.org/issue03/daut.html">https://archipelagosjournal.org/issue03/daut.html</ref>. Accessed: 5 July 2024.</bibl>
             
-            <bibl>Daut, M. (2019) “Inside the Kingdom of Haiti, ‘the Wakanda of the Western Hemisphere,’” The Conversation, 23 January. {Available at https://theconversation.com/inside-the-kingdom-of-haiti-the-wakanda-of-the-western-hemisphere-108250 (Accessed: 3 July 2024).}</bibl>
+            <bibl xml:id="daut2019b" label="Daut 2019b">Daut, M. (2019b) <title rend="quotes">Inside the kingdom of Haiti, ‘the Wakanda of the western hemisphere’</title>, <title rend="italic">The Conversation</title>, 23 January. Available at: <ref target="https://theconversation.com/inside-the-kingdom-of-haiti-the-wakanda-of-the-western-hemisphere-108250">https://theconversation.com/inside-the-kingdom-of-haiti-the-wakanda-of-the-western-hemisphere-108250</ref>. Accessed: 3 July 2024.</bibl>
             
-            <bibl>Daut, M. (2021) “Why Did Bridgerton Erase Haiti?,” Avidly (Los Angeles Review of Books), 19 January. {Available at https://avidly.lareviewofbooks.org/2021/01/19/why-did-bridgerton-erase-haiti/ (Accessed: 10 September 2024).}</bibl>
+            <bibl xml:id="daut2021" label="Daut 2021">Daut, M. (2021) <title rend="quotes">Why did Bridgerton erase Haiti?</title>, <title rend="italic">Avidly (Los Angeles Review of Books)</title>, 19 January. Available at: <ref target="https://avidly.lareviewofbooks.org/2021/01/19/why-did-bridgerton-erase-haiti/">https://avidly.lareviewofbooks.org/2021/01/19/why-did-bridgerton-erase-haiti/</ref>. Accessed: 10 September 2024.</bibl>
             
-            <bibl>Dize, N. (2024), Personal communication, 7 August.</bibl>
+            <bibl xml:id="dize2024" label="Dize 2024">Dize, N. (2024) Personal communication, 7 August.</bibl>
             
-            <bibl>Donaldson, S. (2021) “The Ephemeral Archive: Unstable Terrain in Sites of Discord,” in Roopika Risam and Kelly Baker Josephs (eds.) The Digital Black Atlantic. Minneapolis and London: University of Minnesota Press, pp. 19-29.</bibl>
+            <bibl xml:id="donaldson2021">Donaldson, S. (2021) <title rend="quotes">The ephemeral archive: Unstable terrain in sites of discord</title>, in Roopika Risam and Kelly Baker Josephs (eds.) <title rend="italic">The digital Black Atlantic</title>. Minneapolis and London: University of Minnesota Press, pp. 19-29.</bibl>
             
-            <bibl>Dublin, D. (2022) Speech for Marie-Louise Christophe blue heritage plaque unveiling, Hastings, 3 October.</bibl>
+            <bibl xml:id="dublin2022" label="Dublin 2022">Dublin, D. (2022) Speech for Marie-Louise Christophe blue heritage plaque unveiling, Hastings, 3 October.</bibl>
             
-            <bibl>Evans, M. (2020) “We Are Here: Black History Month in Hastings and St Leonards,” Hastings Online Times, October 18. {Available at: https://hastingsonlinetimes.co.uk/hot-topics/campaigns/we-are-here-black-history-month (Accessed 19 September 2024).}</bibl>
+            <bibl xml:id="evans2020" label="Evans 2020">Evans, M. (2020) <title rend="quotes">We are here: Black history month in hastings and St Leonards</title>, <title rend="italic">Hastings Online Times</title>, October 18. Available at: <ref target="https://hastingsonlinetimes.co.uk/hot-topics/campaigns/we-are-here-black-history-month">https://hastingsonlinetimes.co.uk/hot-topics/campaigns/we-are-here-black-history-month</ref>. Accessed 19 September 2024.</bibl>
             
-            <bibl>Glover, K.L. and Gil, A. (2021) “On the Interpretation of Digital Caribbean Dreams,” in Roopika Risam and Kelly Baker Josephs (eds.) The Digital Black Atlantic. Minneapolis and London: University of Minnesota Press, pp. 225-236.</bibl>
+            <bibl xml:id="glover2021" label="Glover and Gil 2021">Glover, K.L. and Gil, A. (2021) <title rend="quotes">On the interpretation of digital Caribbean dreams</title>, in Roopika Risam and Kelly Baker Josephs (eds.) <title rend="italic">The digital Black Atlantic</title>. Minneapolis and London: University of Minnesota Press, pp. 225-236.</bibl>
             
-            <bibl>Huet, H., Alteri, S., and Taylor, L.N. () “Radical Collaboration to Improve Library Collections,” in Roopika Risam and Kelly Baker Josephs (eds.) The Digital Black Atlantic. Minneapolis and London: University of Minnesota Press, pp. 95-107.</bibl>
+            <bibl xml:id="huet_etal2021" label="Huet et al. 2021">Huet, H., Alteri, S., and Taylor, L.N. (2021) <title rend="quotes">Radical collaboration to improve library collections</title>, in Roopika Risam and Kelly Baker Josephs (eds.) <title rend="italic">The digital Black Atlantic</title>. Minneapolis and London: University of Minnesota Press, pp. 95-107.</bibl>
             
-            <bibl>Kauffman, M. [@MirandaKauffman] (2021) “Any plaques for Marie-Louise Christophe &amp; daughters in the offing?@openplaques @NubianJak @EnglishHeritage @DavidOlusoga,” [x.com] 23 February. Available at https://x.com/MirandaKaufmann/status/1364207792958103560 (Accessed: 16 September 2024).</bibl>
+            <bibl xml:id="kauffman2021" label="Kauffman 2021">Kauffman, M. [@MirandaKauffman] (2021) <title rend="quotes">Any plaques for Marie-Louise Christophe &amp; daughters in the offing?@openplaques @NubianJak @EnglishHeritage @DavidOlusoga</title>, [x.com] 23 February. Available at: <ref target="https://x.com/MirandaKaufmann/status/1364207792958103560">https://x.com/MirandaKaufmann/status/1364207792958103560</ref>. Accessed: 16 September 2024.</bibl>
             
-            <bibl>Madiou, T. (1989) Histoire d’Haïti, Tome 2, Port-au-Prince: Éditions Henri Deschamps (First published 1847).</bibl>
+            <bibl xml:id="madiou1989" label="Madiou 1989">Madiou, T. (1989) Histoire d’Haïti, Tome 2, Port-au-Prince: Éditions Henri Deschamps (First published 1847).</bibl>
             
-            <bibl>McCarl, C., et al. (2023) “Colonial and Nineteenth-Century Latin American Studies and Digital Public Humanities,” Digital Studies/le champ numérique, 13(1). {Available at: https://doi.org/10.16995/dscn.9601 (Accessed: 19 September 2024).}</bibl>
+            <bibl xml:id="mccarl_etal2023" label="McCarl et. al 2023">McCarl, C., et al. (2023) <title rend="quotes">Colonial and nineteenth-century Latin American studies and digital public humanities</title>, <title rend="italic">Digital Studies/le champ numérique</title>, 13(1). Available at: <ref target="https://doi.org/10.16995/dscn.9601">https://doi.org/10.16995/dscn.9601</ref>. Accessed: 19 September 2024.</bibl>
             
-            <bibl>McIntosh, T. and Pierrot, G. (2017) “Capturing the likeness of Henry I of Haiti (1805–1822),” Atlantic Studies: Global Currents, 14(2), pp. 127-151. {Available at: https://doi.org/10.1080/14788810.2016.1203214 (Accessed: 3 July 2024).}</bibl>
+            <bibl xml:id="mcintosh2017" label="McIntosh and Pierrot 2017">McIntosh, T. and Pierrot, G. (2017) <title rend="quotes">Capturing the likeness of Henry I of Haiti</title> (1805–1822), <title rend="italic">Atlantic Studies: Global Currents</title>, 14(2), pp. 127-151. Available at: <ref target="https://doi.org/10.1080/14788810.2016.1203214">https://doi.org/10.1080/14788810.2016.1203214</ref>. Accessed: 3 July 2024.</bibl>
+            <bibl xml:id="meï2020a" label="Meï 2020a">Meï, S. (2020a) <title rend="quotes">Call for contributors and collaborators</title>, <title rend="quotes">H-Haiti: H-Net's Network dedicated to constructive discussions of Haiti</title>. Available at: <ref target="https://networks.h-net.org/node/116721/discussions/5720984/cfp-“rendering-revolution-sartorial-approaches-haitian-history">https://networks.h-net.org/node/116721/discussions/5720984/cfp-rendering-revolution-sartorial-approaches-haitian-history</ref>. Accessed 10 September.</bibl>
             
-            <bibl>Meï, S. (2020) “Call for Contributors and Collaborators,” H-Haiti: H-Net's Network dedicated to constructive discussions of Haiti. Available at https://networks.h-net.org/node/116721/discussions/5720984/cfp-“rendering-revolution-sartorial-approaches-haitian-history” (Accessed 10 September).</bibl>
+            <bibl xml:id="meï2020b" label="Meï 2020b">Meï, S. (2020b) <title>Mount Holyoke College alumnae fellowship application Essay</title>, November.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="meï_square" label="Meï and Square">Meï, S. and Square, J.M. <title rend="quotes">About</title>, <title rend="italic">Rendering Revolution: Sartorial Approaches to Haitian History</title>. Available at: <ref target="https://renderingrevolution.ht/about">https://renderingrevolution.ht/about</ref>. Accessed 14 August 2024.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="meï_square2025" label="Meï and Square 2025">Meï, S. and Square, J.M. (curators) (2025) <title rend="italic">Revolisyon Toupatou</title>. Exhibition at Anna-Maria &amp; Stephen Kellen Gallery, Parsons School of Design (The New School), New York, 1 January–15 February.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="marcisse1997" label="Narcisse 1997">Narcisse, J.C. (1997) <title rend="italic">Mémoire de Femmes</title> (collaboration: Pierre-Richard Narcisse). Port-au-Prince: Unicef.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="narcisse" label="Mémoire de Femmes">Narcisse, J.C. <title rend="italic">Mémoire de Femmes</title>. Available at: <ref target="http://memoiredefemmes.com">http://memoiredefemmes.com</ref>. Accessed 14 August 2024.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="narcisse2020" label="Narcisse 2020">Narcisse, J.C. (2020) Personal communication, 19 May.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="narcisse2024" label="Narcisse 2024">Narcisse, J.C. (2024) Personal communication, 8 September.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="nazaire2017" label="Nazaire 2017">Nazaire, H. (2017) <title rend="italic">Finding your colors: Fine art adult coloring book</title>, Volume 1, Indigo Book.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="rice2010" label="Rice 2010">Rice, A. (2010) <title rend="italic">Creating memorials, Building identities: The politics of memory in the Black Atlantic</title>. Liverpool: Liverpool University Press.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="saturné" label="Saturné">Saturné, A.L. <title rend="quotes" xml:lang="fr">Incendie de la chapelle royale Henri Christophe de Milot</title>, <title rend="italic">Le Nouvelliste</title>, 17 April. Available at: <ref target="https://lenouvelliste.com/article/215027/incendie-de-la-chapelle-royale-henri-christophe-de-milot-larcheveche-du-cap-haitien-denonce-la-negligence-des-autorites">https://lenouvelliste.com/article/215027/incendie-de-la-chapelle-royale-henri-christophe-de-milot-larcheveche-du-cap-haitien-denonce-la-negligence-des-autorites</ref>. Accessed: 10 September 2024.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="sepinwall2021a" label="Sepinwall 2021a">Sepinwall, A. [@DrSepinwall] (2021a) <title rend="quotes">Holy view count! @NicoleWillson’s film on Queen Marie-Louise 🇭🇹 has gotten nearly 156K views on YouTube in 2 months!! That goes way beyond any of our scholarship. What a hunger for public history about Haiti there is... &amp; 🙏🏼🙏🏼@LeverhulmeTrust &amp; @haitichambergb!!!</title>[x.com] 22 March. Available at: <ref target="https://x.com/DrSepinwall/status/1374136007646351368">https://x.com/DrSepinwall/status/1374136007646351368</ref>. Accessed: 16 September 2024.</bibl>
             
-            <bibl></bibl>
+            <bibl xml:id="speninwall2021b" label="Sepinwall 2021b">Sepinwall, A. [@DrSepinwall] (2021b) <title rend="quotes">Some things are not in the archives - like how👑Marie-Louise *felt* being away from her 🇭🇹 fam. So here, @wil4rd reflects from his experience in the Haitian diaspora in the UK, and standing in front of her Church &amp; musing on how it must have felt like a (somewhat) familiar comfort!</title> [x.com] 2 January. Available at: <ref target="https://x.com/DrSepinwall/status/1345476771345440768">https://x.com/DrSepinwall/status/1345476771345440768</ref>. Accessed: 16 September 2024.</bibl>
+            
+            <bibl xml:id="sharpe2020" label="Sharpe 2020">Sharpe, J. (2020) <title rend="italic">Immaterial archives: An African diaspora poetics of loss</title>. Illinois: Northwestern University Press.</bibl>
+            
+            <bibl xml:id="smith2001" label="Smith 2001">Smith, J.M. (2001) <title rend="italic">When the hands are many: Community organization and social change in rural Haiti</title>. Ithaca and London: Cornell University Press.</bibl>
+            
+            <bibl xml:id="smith2022" label="Smith 2022">Smith, M. (2022) Speech for Marie-Louise Christophe blue heritage plaque unveiling, London, 7 February.</bibl>
+            
+            <bibl xml:id="sqaurea" label="Square(a)">Square, J.M. <title rend="italic">Fashioning the self: Celebrating Black fashion and culture</title>. Available at:<ref target="https://linktr.ee/fashioningtheself">https://linktr.ee/fashioningtheself</ref>. Accessed 10 September 2024.</bibl>
+            
+            <bibl xml:id="squareb" label="Square(b)">Square, J.M. <title rend="quotes">Network</title>, <title rend="italic">Rendering revolution: Sartorial approaches to Haitian history</title>. Available at: <ref target="https://renderingrevolution.ht/network">https://renderingrevolution.ht/network</ref>. Accessed 14 August 2024.</bibl>
+            
+            <bibl xml:id="ulysse2017" label="Ulysse 2017">Ulysse, G.A. (2017) <title rend="quotes">Why Rasanblaj, Why now?: New salutations to the four cardinal points in Haitian studies</title>, <title rend="italic">Journal of Haitian Studies</title>, 23(2), pp. 58-80. Available at: <ref target="https://dx.doi.org/10.1353/jhs.2017.0017">https://dx.doi.org/10.1353/jhs.2017.0017</ref>. Accessed: 3 July 2024.</bibl>
+            
+            <bibl xml:id="willson2019" label="Willson2019">Willson, N. (2019) <title rend="quotes">Gallery</title>, <title rend="italic">Fanm Rebèl</title>. Available at: <ref target="https://www.fanmrebel.com/en/gallery">https://www.fanmrebel.com/en/gallery</ref>. Accessed 3 July 2024.</bibl>
+            
+            <bibl xml:id="willson2021" label="Willson 2021">Willson, N. (2021) <title rend="quotes">Sartorial insurgencies: Rebel women, headwraps and the revolutionary Black Atlantic</title>, <title rend="italic">Atlantic Studies</title>, 19(1), 86–106. Available at: <ref target="https://doi.org/10.1080/14788810.2021.1908790">https://doi.org/10.1080/14788810.2021.1908790</ref>. Accessed: 28 August 2025.</bibl>
+            
+            <bibl xml:id="willson2020" label="Willson 2020">Willson, N. (2020) <title rend="quotes">Unmaking the tricolore: Catherine Flon, material testimony and occluded narratives of female-led resistance in Haiti and the Haitian Dyaspora</title>, <title rend="italic">Slavery &amp; Abolition</title>, 41(1), 131–148. Available at: <ref target="https://doi.org/10.1080/0144039X.2019.1685254">https://doi.org/10.1080/0144039X.2019.1685254</ref>. Accessed: 28 August 2025.</bibl>
+            
+            <bibl xml:id="willson_etal2021" label="Willson et. al 2021">Willson, N, Marous, W. and Romulus, M. (2021) <title rend="italic">Marie-Louise Christophe: A Haitian Queen in Great Britain</title>. YouTube. Available at: <ref target="https://youtu.be/9XOhMr2Fmh0?si=ftjiaqPD_EcwTgCI">https://youtu.be/9XOhMr2Fmh0?si=ftjiaqPD_EcwTgCI</ref>. Accessed: 14 August 2024.</bibl>
+            
+            <bibl xml:id="youtube2024" label="YouTube 2024">YouTube. (2024) YouTube Analytics data for <title rend="italic">Fanm Rebèl</title>, YouTube Studio, Accessed 16 September.</bibl>
+            
          </listBibl>
       </back>
    </text>
