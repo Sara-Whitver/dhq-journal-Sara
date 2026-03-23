@@ -43,6 +43,7 @@
             <publisher>Association for Computers and the Humanities</publisher>
             <!--This information will be completed at publication-->
             <idno type="DHQarticle-id"><!--including leading zeroes: e.g. 000110-->000646</idno>
+            <idno type="DOI">10.63744/b49fzhuz9hhz</idno>
             <idno type="volume">016</idno>
             <idno type="issue">2</idno>
             <date when="2022-06-25">25 June 2022</date>

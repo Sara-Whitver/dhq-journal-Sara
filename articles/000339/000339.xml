@@ -133,6 +133,7 @@
                 <publisher>Association for Computers and the Humanities</publisher>
                 <!-- This information will be completed at publication -->
                 <idno type="DHQarticle-id">000339<!-- including leading zeroes: e.g. 000110 --></idno>
+                <idno type="DOI">10.63744/eb5g2dmbwtxw</idno>
                 <idno type="volume">011<!-- volume number, with leading zeroes: e.g. 006 --></idno>
                 <idno type="issue">4<!-- issue number, without leading zeroes: e.g. 2 --></idno>
                 <date when="2017-12-22">12 December 2017</date>
