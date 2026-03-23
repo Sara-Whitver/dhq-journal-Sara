@@ -51,6 +51,7 @@
         <publisher>Association for Computers and the Humanities</publisher>
         <!--This information will be completed at publication-->
         <idno type="DHQarticle-id">000754<!--including leading zeroes: e.g. 000110--></idno>
+        <idno type="DOI">10.63744/e978p947mfxt</idno>
         <idno type="volume">018</idno>
         <idno type="issue">3</idno>
         <date when="2024-08-01">01 August 2024<!--include @when with ISO date and also content in the form 23 February 2024--></date>
