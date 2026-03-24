@@ -97,7 +97,7 @@
         URL: {$baseurl}{$latterurl}
 	<xsl:if test="not( empty( $doi ) )">
           <br/>
-	  DOI: <a href="{$doiURL}">{$doi}</a>
+	  DOI: <a href="{$doiURL}">{$doiURL}</a>
 	</xsl:if>
 	<br/>
         Comments:&#x20;

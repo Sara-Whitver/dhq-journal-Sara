@@ -1941,7 +1941,7 @@
           not(following-sibling::* | following-sibling::text()[normalize-space()])]"/>
 
     <xsl:template match="tei:idno[ @type eq 'DOI']">
-      <p>DOI: <a href="{$doiURL}"><xsl:sequence select="$doi"/></a></p>
+      <p>DOI: <a href="{$doiURL}"><xsl:sequence select="$doiURL"/></a></p>
     </xsl:template>
     
     <xsl:template match="dhq:revisionNote">
