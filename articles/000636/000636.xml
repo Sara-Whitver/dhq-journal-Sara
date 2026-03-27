@@ -35,6 +35,7 @@
             <publisher>Association for Computers and the Humanities</publisher>
             <!--This information will be completed at publication-->
             <idno type="DHQarticle-id"><!--including leading zeroes: e.g. 000110-->000636</idno>
+            <idno type="DOI">10.63744/45w7mfsznd3d</idno>
          	<idno type="volume"><!--volume number, with leading zeroes as needed to make 3 digits: e.g. 006-->016</idno>
          	<idno type="issue"><!--issue number, without leading zeroes: e.g. 2-->3</idno>
          	<date when="2022-07-22">22 July 2022</date>

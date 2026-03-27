@@ -73,6 +73,28 @@
                             Computing (2004-15). Https://web.uvic.ca/~siemens/</p>
                     </dhq:bio>
                 </dhq:authorInfo>
+                <dhq:translatorInfo xml:id="leonard_colato">
+                    <!-- Include a separate <dhq:translatorInfo> element for each translator 
+                         The value of xml:id should be first_last without diacritics, all lower case.
+                    -->
+                    <dhq:translator_name>Leonardo <dhq:family>Colato</dhq:family></dhq:translator_name>
+                    <dhq:affiliation>Pontifícia Universidade Católica do Rio Grande do Sul</dhq:affiliation>
+                    <email>leonardo.colato@edu.pucrs.br</email>
+                    <dhq:bio>
+                        <p>Leonardo Colato is a Creative Writing student at the Pontifical Catholic University of Rio Grande do Sul (PUCRS) and a research fellow at the PUCRS Digital Humanities Lab and at the University of Victoria’s Electronic Textual Cultures Lab (through the MITACS Globalink Internship program). His research interests orbit the intersection of creative writing and digital humanities, particularly in questions of language and anthropomorphism, including in the context of large language models (LLMs). Besides, he is interested in issues related to authorship, power imbalances in scholarly production, and open science.</p>
+                    </dhq:bio>
+                </dhq:translatorInfo>
+                <dhq:translatorInfo xml:id="franco_guglielmoni">
+                    <!-- Include a separate <dhq:translatorInfo> element for each translator 
+                         The value of xml:id should be first_last without diacritics, all lower case.
+                    -->
+                    <dhq:translator_name>Franco <dhq:family>Guglielmoni</dhq:family></dhq:translator_name>
+                    <dhq:affiliation>ontifícia Universidade Católica do Rio Grande do Sul</dhq:affiliation>
+                    <email>franco.g@edu.pucrs.br</email>
+                    <dhq:bio>
+                        <p>Franco Gabriel Guglielmoni is an undergraduate Creative Writing student and research intern at Laboratório de Humanidades Digitais at the Pontifical Catholic University of Rio Grande do Sul, in Brazil. Through the MITACS Globalink Internship program, he also works with the Electronic Textual Cultures Lab from University of Victoria as a visiting research intern. His research interests follow the field of Digital Humanities as well as Literature and Creative Writing, in special: gaming studies; interactive narratives; Latin America magical realism (bachelor thesis on the making); and more recently, creative process paired with large language models.</p>
+                    </dhq:bio>
+                </dhq:translatorInfo>
             </titleStmt>
             <publicationStmt>
                 <publisher>Alliance of Digital Humanities Organizations</publisher>
@@ -80,6 +102,7 @@
 
                 <!-- This information should be added when the file is created -->
                 <idno type="DHQarticle-id">000850</idno>
+                <idno type="DOI">10.63744/cdnnak973twq</idno>
 
 
                 <!-- This information will be completed at publication -->
@@ -896,7 +919,7 @@ COM_ANSWERS="Perguntas e Respostas" [portugués]</eg></p>
 
             <!-- Translated language Portuguese -->
 
-            <text xml:lang="pt" type="translation" resp="alan-colin-arce">
+            <text xml:lang="pt" type="translation" resp="#leonard_colato #franco_guglielmoni">
                 <!-- Use "translation_stub" if only the abstract and possibly a short summary is translated. Use "translation" if the entire article has been translated. -->
                 <!-- @resp for the translation is a pointer to xml:id of <dhq:translatorInfo> -->
                 <front>

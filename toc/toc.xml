@@ -51,10 +51,13 @@
 			<!-- ENCODING IN PROGRESS & INTERNAL PREVIEW -->
 			<list id="articles">
 				<item id="000831"/><!-- Bandara et al. OJS 2156 (Article) Meg encoded, with author for review -->
-				<item id="000851"/><!-- Hongisto OJS 1872 (article) Meg encoding, started -->
-				<item id="000857"/><!-- Fagin Davis & Layfield (article) Meg encoding, not started -->
+				<item id="000857"/><!-- Fagin Davis & Layfield (article) Meg encoding, in progress-->
 				<item id="000858"/><!-- Hamilton & Park (article) Meg encoding, not started -->
 				<item id="000853"/><!-- Rudds et al. OJS 1988 (Article); Emily sent for first round of authorial review -->
+				<item id="000859"/><!-- Buckley et al. OJS 1986 (Article); Emily sent for first round of authorial review -->
+				<!-- <item id="000860"/> Chevalier et al. OJS 1910 (Article); Emily encoding, not started -->
+				
+			
 				
 				
 				<!-- Ready for publication -->
@@ -79,8 +82,8 @@
 				<item id="000834"/><!-- Lopez Baquero OJS 2021 (SI: CAI) (Article); Ready for publication -->
 				<item id="000835"/><!-- Arriaga-Arango OJS 2024 (SI: CAI) (Article); Emily sent first round of encoding for authorial review -->
 				<item id="000837"/><!-- Baccus OJS 2027 (SI: CAI) (Article); Ready for publication -->
-				<item id="000841"/><!-- Willson OJS 2023 (SI: CAI) (Article); Emily encoding -->
-				<item id="000843"/><!-- Mendoza Aviña OJS 2022 (SI: CAI) (Article); Emily encoding -->
+				<item id="000841"/><!-- Willson OJS 2023 (SI: CAI) (Article); Emily sent first round of encoding for authorial review -->
+				<item id="000843"/><!-- Mendoza Aviña OJS 2022 (SI: CAI) (Article); Emily sent first round of encoding for authorial review -->
 				
 				
 			</list>
@@ -170,6 +173,7 @@
 			<item id="000855"/><!-- Schnitzler et al. OJS 1842 (article) Preview 27 February 2026 -->
 			<item id="000854"/><!-- Chang OJS 2139 (article) Preview 27 February 2026 -->
 			<item id="000850"/><!-- Colin-Arce et al. OJS 2211 Preview 13 March 2026 -->
+			<item id="000851"/><!-- Hongisto OJS 1872 (article) Preview 27 2026-->
 		</list>
 		
 		<list id="case_studies">
