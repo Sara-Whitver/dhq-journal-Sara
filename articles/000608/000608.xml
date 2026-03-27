@@ -80,6 +80,7 @@
             <publisher>Alliance of Digital Humanities Organizations</publisher>
             <publisher>Association for Computers and the Humanities</publisher>
             <idno type="DHQarticle-id">000608</idno>
+            <idno type="DOI">10.63744/gz5h49rufcht</idno>
             <idno type="volume"><!-- volume number, with leading zeroes: e.g. 006 -->016</idno>
             <idno type="issue"><!-- issue number, without leading zeroes: e.g. 2 -->2</idno>
             <date when="2022-06-25"><!-- date: e.g. 22 July 2010 -->25 June 2022</date>

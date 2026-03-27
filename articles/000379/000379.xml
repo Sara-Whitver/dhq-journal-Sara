@@ -108,6 +108,7 @@
                 <publisher>Association for Computers and the Humanities</publisher>
                 <!-- This information will be completed at publication -->
                 <idno type="DHQarticle-id"><!-- including leading zeroes: e.g. 000110 -->000379</idno>
+                <idno type="DOI">10.63744/ps889atf3hru</idno>
                 <idno type="volume"><!-- volume number, with leading zeroes: e.g. 006 -->012</idno>
                 <idno type="issue"><!-- issue number, without leading zeroes: e.g. 2 -->2</idno>
                 <date when="2018-09-05">5 September 2018</date>

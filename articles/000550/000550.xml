@@ -140,6 +140,7 @@
             <publisher>Association for Computers and the Humanities</publisher>
             <!--This information will be completed at publication-->
             <idno type="DHQarticle-id">000550</idno>
+            <idno type="DOI">10.63744/f74y9vgu488r</idno>
             <idno type="volume"><!--volume number, with leading zeroes as needed to make 3 digits: e.g. 006-->016</idno>
             <idno type="issue"><!--issue number, without leading zeroes: e.g. 2-->2</idno>
             <date when="2022-05-18">5/18/2022</date>
